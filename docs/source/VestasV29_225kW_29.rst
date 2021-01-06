@@ -1,0 +1,59 @@
+VestasV29_225kW_29
+==================
+
+====================
+Link to Tabular Data
+====================
+
+A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Distributed/VestasV29_225kW_29.csv>`_.
+
+==============
+Key Parameters
+==============
+
++------------------------+-------------------------+----------------+
+| Item                   | Value                   | Units          |
++========================+=========================+================+
+| Name                   | V29                     | N/A            |
++------------------------+-------------------------+----------------+
+| Rated Power            | 225                     | kW             |
++------------------------+-------------------------+----------------+
+| Rated Wind Speed       | 14                      | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-in Wind Speed      | 4                       | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-out Wind Speed     | 25                      | m/s            |
++------------------------+-------------------------+----------------+
+| Rotor Diameter         | 29                      | m              |
++------------------------+-------------------------+----------------+
+| Hub Height             | 31                      | m              |
++------------------------+-------------------------+----------------+
+| Drivetrain             | Geared                  | N/A            |
++------------------------+-------------------------+----------------+
+| Control                | Pitch Regulated         | N/A            |
++------------------------+-------------------------+----------------+
+| IEC Class              |                         | N/A            |
++------------------------+-------------------------+----------------+
+
+===========
+Power curve
+===========
+
+.. image:: C:\\Users\\pduffy\\Documents\\Projects\\Turbines\\wind-turbine-archive-dev\\docs\\source\\images\\VestasV29_225kW_29_Power.png
+  :width: 800
+
+========
+Cp curve
+========
+
+.. image:: C:\\Users\\pduffy\\Documents\\Projects\\Turbines\\wind-turbine-archive-dev\\docs\\source\\images\\VestasV29_225kW_29_Cp.png
+  :width: 800
+
+
+=======
+Sources
+=======
+
+Power performance test: http://www.orkneywind.co.uk/explore/Skea%20Brae/Vesta%20V29%20225%20Turbine.pdf
+
+Note that Power and Cp were both measured up to 15.3 m/s as 10 min bin averages, but above this the wind speeds and power measurements are 1 min bin averages and the Cp values are calculated based on the power equation above this wind speed as they are not reported.

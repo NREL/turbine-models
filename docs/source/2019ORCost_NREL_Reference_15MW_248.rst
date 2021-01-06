@@ -1,0 +1,59 @@
+2019ORCost_NREL_Reference_15MW_248
+==================================
+
+====================
+Link to Tabular Data
+====================
+
+A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Offshore/2019ORCost_NREL_Reference_15MW_248.csv>`_.
+
+==============
+Key Parameters
+==============
+
++------------------------+-------------------------+----------------+
+| Item                   | Value                   | Units          |
++========================+=========================+================+
+| Name                   | OR Cost Reference 15 MW | N/A            |
++------------------------+-------------------------+----------------+
+| Rated Power            | 15000                   | kW             |
++------------------------+-------------------------+----------------+
+| Rated Wind Speed       | 11                      | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-in Wind Speed      | 4                       | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-out Wind Speed     | 25                      | m/s            |
++------------------------+-------------------------+----------------+
+| Rotor Diameter         | 248                     | m              |
++------------------------+-------------------------+----------------+
+| Hub Height             | 149                     | m              |
++------------------------+-------------------------+----------------+
+| Drivetrain             | Direct Drive            | N/A            |
++------------------------+-------------------------+----------------+
+| Control                | Pitch Regulated         | N/A            |
++------------------------+-------------------------+----------------+
+| IEC Class              |                         | N/A            |
++------------------------+-------------------------+----------------+
+
+===========
+Power curve
+===========
+
+.. image:: C:\\Users\\pduffy\\Documents\\Projects\\Turbines\\wind-turbine-archive-dev\\docs\\source\\images\\2019ORCost_NREL_Reference_15MW_248_Power.png
+  :width: 800
+
+========
+Cp curve
+========
+
+.. image:: C:\\Users\\pduffy\\Documents\\Projects\\Turbines\\wind-turbine-archive-dev\\docs\\source\\images\\2019ORCost_NREL_Reference_15MW_248_Cp.png
+  :width: 800
+
+=======
+Sources
+=======
+
+NREL 2019 Oregon Cost report:
+https://www.nrel.gov/docs/fy20osti/74597.pdf
+
+Note: This turbine model was based on an early version of the IEA_15MW_240_RWT.

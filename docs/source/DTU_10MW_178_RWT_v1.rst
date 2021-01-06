@@ -1,0 +1,70 @@
+DTU_10MW_178_RWT_v1
+===================
+
+====================
+Link to Tabular Data
+====================
+
+A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Offshore/DTU_10MW_178_RWT_v1.csv>`_.
+
+==============
+Key Parameters
+==============
+
++------------------------+-------------------------+----------------+
+| Item                   | Value                   | Units          |
++========================+=========================+================+
+| Name                   | DTU 10 MW RWT (v1)      | N/A            |
++------------------------+-------------------------+----------------+
+| Rated Power            | 10000*                  | kW             |
++------------------------+-------------------------+----------------+
+| Rated Wind Speed       | 11.4                    | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-in Wind Speed      | 4                       | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-out Wind Speed     | 25                      | m/s            |
++------------------------+-------------------------+----------------+
+| Rotor Diameter         | 178.3                   | m              |
++------------------------+-------------------------+----------------+
+| Hub Height             | 119                     | m              |
++------------------------+-------------------------+----------------+
+| Drivetrain             | Geared                  | N/A            |
++------------------------+-------------------------+----------------+
+| Control                | Pitch Regulated         | N/A            |
++------------------------+-------------------------+----------------+
+| IEC Class              | IA                      | N/A            |
++------------------------+-------------------------+----------------+
+
+*Note: despite the fact that the rated power is 10 MW, the turbine produces 10.6 MW according to the power curve from the source.
+
+===========
+Power curve
+===========
+
+.. image:: C:\\Users\\pduffy\\Documents\\Projects\\Turbines\\wind-turbine-archive-dev\\docs\\source\\images\\DTU_10MW_178_RWT_v1_Power.png
+  :width: 800
+
+========
+Cp curve
+========
+
+.. image:: C:\\Users\\pduffy\\Documents\\Projects\\Turbines\\wind-turbine-archive-dev\\docs\\source\\images\\DTU_10MW_178_RWT_v1_Cp.png
+  :width: 800
+
+=======
+Sources
+=======
+
+The model included here is the first version (v1) of the 10 MW Reference Wind Turbine developed by the Technical University of Denmark (DTU).
+
+DTU Wind Energy Report-I-0092: 
+Christian Bak, Frederik Zahle, Robert Bitsche, Taeseong Kim, Anders Yde, Lars Christian Henriksen, Anand Natarajan, and Morten Hartvig Hansen. "Description of the DTU 10 MW Reference Wind Turbine" (2013).
+
+Conference slides:
+https://orbit.dtu.dk/en/publications/the-dtu-10-mw-reference-wind-turbine
+
+HAWC2 model files available from DTU:
+https://www.hawc2.dk/Download/HAWC2-Model/DTU-10-MW-Reference-Wind-Turbine
+
+Note: since this turbine model was released, IEA Wind Task 37 has produced an updated 10 MW reference turbine model:
+https://github.com/IEAWindTask37/IEA-10.0-198-RWT

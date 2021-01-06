@@ -1,0 +1,57 @@
+2017COE_Market_Average_2.3MW_113
+================================
+
+====================
+Link to Tabular Data
+====================
+
+A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Onshore/2017COE_Market_Average_2.3MW_113.csv>`_.
+
+==============
+Key Parameters
+==============
+
++------------------------+-------------------------+----------------+
+| Item                   | Value                   | Units          |
++========================+=========================+================+
+| Name                   | 2017 COE Market Average | N/A            |
++------------------------+-------------------------+----------------+
+| Rated Power            | 2300                    | kW             |
++------------------------+-------------------------+----------------+
+| Rated Wind Speed       |                         | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-in Wind Speed      | 3                       | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-out Wind Speed     | 25                      | m/s            |
++------------------------+-------------------------+----------------+
+| Rotor Diameter         | 113                     | m              |
++------------------------+-------------------------+----------------+
+| Hub Height             | 86                      | m              |
++------------------------+-------------------------+----------------+
+| Drivetrain             | Geared                  | N/A            |
++------------------------+-------------------------+----------------+
+| Control                |                         | N/A            |
++------------------------+-------------------------+----------------+
+| IEC Class              |                         | N/A            |
++------------------------+-------------------------+----------------+
+
+===========
+Power curve
+===========
+
+.. image:: C:\\Users\\pduffy\\Documents\\Projects\\Turbines\\wind-turbine-archive-dev\\docs\\source\\images\\2017COE_Market_Average_2.3MW_113_Power.png
+  :width: 800
+
+========
+Cp curve
+========
+
+.. image:: C:\\Users\\pduffy\\Documents\\Projects\\Turbines\\wind-turbine-archive-dev\\docs\\source\\images\\2017COE_Market_Average_2.3MW_113_Cp.png
+  :width: 800
+
+=======
+Sources
+=======
+
+2017 Cost of Wind Energy Review:
+https://www.nrel.gov/docs/fy18osti/72167.pdf
