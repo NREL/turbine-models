@@ -1,0 +1,66 @@
+BAR_BAUa_5.0MW_167.4
+====================
+
+====================
+Link to Tabular Data
+====================
+
+A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Onshore/BAR_BAUa_5.0MW_167.4.csv>`_.
+
+==============
+Key Parameters
+==============
+
++------------------------+-------------------------+----------------+
+| Item                   | Value                   | Units          |
++========================+=========================+================+
+| Name                   | BAR BAUa 5MW            | N/A            |
++------------------------+-------------------------+----------------+
+| Rated Power            | 5000                    | kW             |
++------------------------+-------------------------+----------------+
+| Rated Wind Speed       | 9.75                    | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-in Wind Speed      | 4                       | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-out Wind Speed     | 25                      | m/s            |
++------------------------+-------------------------+----------------+
+| Rotor Diameter         | 167.4                   | m              |
++------------------------+-------------------------+----------------+
+| Hub Height             | 117                     | m              |
++------------------------+-------------------------+----------------+
+| Drivetrain             |                         | N/A            |
++------------------------+-------------------------+----------------+
+| Control                |                         | N/A            |
++------------------------+-------------------------+----------------+
+| IEC Class              |                         | N/A            |
++------------------------+-------------------------+----------------+
+
+===========
+Power curve
+===========
+
+.. image:: \\images\\BAR_BAUa_5.0MW_167.4_Power.png
+  :width: 800
+
+========
+Cp curve
+========
+
+.. image:: \\images\\BAR_BAUa_5.0MW_167.4_Cp.png
+  :width: 800
+
+=======
+Sources
+=======
+
+Internal NREL documentation lists "Wiser et. al. (Nature Energy Expert Elicitation)" as a source for the BAR BAUa 5MW power curve. This is assumed to be:
+http://dx.doi.org/10.1038/nenergy.2016.135 
+
+Big Adaptive Rotor (BAR) Project at NREL:
+https://www.nrel.gov/wind/big-adaptive-rotor.html
+
+BAR report:
+https://www.nrel.gov/docs/fy19osti/73605.pdf
+
+Tall Towers report:
+https://www.nrel.gov/docs/fy19osti/73629.pdf

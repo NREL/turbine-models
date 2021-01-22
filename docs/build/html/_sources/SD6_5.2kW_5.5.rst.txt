@@ -1,0 +1,59 @@
+SD6_5.2kW_5.5
+=============
+
+====================
+Link to Tabular Data
+====================
+
+A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Distributed/SD6_5.2kW_5.5.csv>`_.
+
+==============
+Key Parameters
+==============
+
++------------------------+-------------------------+----------------+
+| Item                   | Value                   | Units          |
++========================+=========================+================+
+| Name                   | SD6                     | N/A            |
++------------------------+-------------------------+----------------+
+| Rated Power            | 5.2                     | kW             |
++------------------------+-------------------------+----------------+
+| Rated Wind Speed       | 11                      | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-in Wind Speed      |                         | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-out Wind Speed     |                         | m/s            |
++------------------------+-------------------------+----------------+
+| Rotor Diameter         |                         | m              |
++------------------------+-------------------------+----------------+
+| Hub Height             | 9                       | m              |
++------------------------+-------------------------+----------------+
+| Drivetrain             |                         | N/A            |
++------------------------+-------------------------+----------------+
+| Control                |                         | N/A            |
++------------------------+-------------------------+----------------+
+| IEC Class              | SWT II                  | N/A            |
++------------------------+-------------------------+----------------+
+
+===========
+Power curve
+===========
+
+.. image:: \\images\\SD6_5.2kW_5.5_Power.png
+  :width: 800
+
+========
+Cp curve
+========
+
+.. image:: \\images\\SD6_5.2kW_5.5_Cp.png
+  :width: 800
+
+=======
+Sources
+=======
+
+SWCC power performance test:
+http://smallwindcertification.org/wp-content/uploads/2019/11/SWCC-11-04-Summary-Report-2019.pdf
+
+Note there seems to be a typo in the units of the power output column in this document. It reads kW but should probably be Watts based on the 6kW inverter used.

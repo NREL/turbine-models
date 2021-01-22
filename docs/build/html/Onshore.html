@@ -1,0 +1,405 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Onshore Wind Turbine Documentation &mdash; NREL/turbine-models power curve archive 0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2017COE_Market_Average_2.3MW_113" href="2017COE_Market_Average_2.3MW_113.html" />
+    <link rel="prev" title="WTK_Validation_offshore_normalized" href="WTK_Validation_offshore_normalized.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> NREL/turbine-models power curve archive
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Distributed.html">Distributed Wind Turbine Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Offshore.html">Offshore Wind Turbine Documentation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Onshore Wind Turbine Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2017COE_Market_Average_2.3MW_113.html">2017COE_Market_Average_2.3MW_113</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018COE_Market_Average_2.4MW_116.html">2018COE_Market_Average_2.4MW_116</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_4MW_150.html">2020ATB_NREL_Reference_4MW_150</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_5.5MW_175.html">2020ATB_NREL_Reference_5.5MW_175</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_7MW_200.html">2020ATB_NREL_Reference_7MW_200</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU_LowSP_3.25MW_166.html">BAR_BAU_LowSP_3.25MW_166</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAUa_5.0MW_167.4.html">BAR_BAUa_5.0MW_167.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU-LBNL-IEA_3.3MW_156.html">BAR_BAU-LBNL-IEA_3.3MW_156</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_HighSP_5.0MW_134.9.html">BAR_HighSP_5.0MW_134.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_4.5MW_194.html">BAR_LowSP_4.5MW_194</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_6.5MW_234.html">BAR_LowSP_6.5MW_234</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DOE_GE_1.5MW_77.html">DOE_GE_1.5MW_77</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEA_3.4MW_130_RWT.html">IEA_3.4MW_130_RWT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class1_Normalized_Industry_Composite.html">IEC_Class1_Normalized_Industry_Composite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class2_Normalized_Industry_Composite.html">IEC_Class2_Normalized_Industry_Composite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class3_Normalized_Industry_Composite.html">IEC_Class3_Normalized_Industry_Composite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV47_660kW_47.html">VestasV47_660kW_47</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV82_1.65MW_82.html">VestasV82_1.65kW_82</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-1_normalized.html">WTK_Validation_IEC-1_normalized</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-2_normalized.html">WTK_Validation_IEC-2_normalized</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-3_normalized.html">WTK_Validation_IEC-3_normalized</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">NREL/turbine-models power curve archive</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Onshore Wind Turbine Documentation</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/Onshore.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="onshore-wind-turbine-documentation">
+<h1>Onshore Wind Turbine Documentation<a class="headerlink" href="#onshore-wind-turbine-documentation" title="Permalink to this headline">¶</a></h1>
+<p>Documentation for the onshore turbines.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="2017COE_Market_Average_2.3MW_113.html">2017COE_Market_Average_2.3MW_113</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2017COE_Market_Average_2.3MW_113.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2017COE_Market_Average_2.3MW_113.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2017COE_Market_Average_2.3MW_113.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2017COE_Market_Average_2.3MW_113.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2017COE_Market_Average_2.3MW_113.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2018COE_Market_Average_2.4MW_116.html">2018COE_Market_Average_2.4MW_116</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2018COE_Market_Average_2.4MW_116.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018COE_Market_Average_2.4MW_116.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018COE_Market_Average_2.4MW_116.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018COE_Market_Average_2.4MW_116.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018COE_Market_Average_2.4MW_116.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2020ATB_NREL_Reference_4MW_150.html">2020ATB_NREL_Reference_4MW_150</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_4MW_150.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_4MW_150.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_4MW_150.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_4MW_150.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_4MW_150.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2020ATB_NREL_Reference_5.5MW_175.html">2020ATB_NREL_Reference_5.5MW_175</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_5.5MW_175.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_5.5MW_175.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_5.5MW_175.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_5.5MW_175.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_5.5MW_175.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="2020ATB_NREL_Reference_7MW_200.html">2020ATB_NREL_Reference_7MW_200</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_7MW_200.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_7MW_200.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_7MW_200.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_7MW_200.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_7MW_200.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="BAR_BAU_LowSP_3.25MW_166.html">BAR_BAU_LowSP_3.25MW_166</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU_LowSP_3.25MW_166.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU_LowSP_3.25MW_166.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU_LowSP_3.25MW_166.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU_LowSP_3.25MW_166.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU_LowSP_3.25MW_166.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="BAR_BAUa_5.0MW_167.4.html">BAR_BAUa_5.0MW_167.4</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAUa_5.0MW_167.4.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAUa_5.0MW_167.4.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAUa_5.0MW_167.4.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAUa_5.0MW_167.4.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAUa_5.0MW_167.4.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="BAR_BAU-LBNL-IEA_3.3MW_156.html">BAR_BAU-LBNL-IEA_3.3MW_156</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU-LBNL-IEA_3.3MW_156.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU-LBNL-IEA_3.3MW_156.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU-LBNL-IEA_3.3MW_156.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU-LBNL-IEA_3.3MW_156.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU-LBNL-IEA_3.3MW_156.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="BAR_HighSP_5.0MW_134.9.html">BAR_HighSP_5.0MW_134.9</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="BAR_HighSP_5.0MW_134.9.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_HighSP_5.0MW_134.9.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_HighSP_5.0MW_134.9.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_HighSP_5.0MW_134.9.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_HighSP_5.0MW_134.9.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="BAR_LowSP_4.5MW_194.html">BAR_LowSP_4.5MW_194</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_4.5MW_194.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_4.5MW_194.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_4.5MW_194.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_4.5MW_194.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_4.5MW_194.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="BAR_LowSP_6.5MW_234.html">BAR_LowSP_6.5MW_234</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_6.5MW_234.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_6.5MW_234.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_6.5MW_234.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_6.5MW_234.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_6.5MW_234.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="DOE_GE_1.5MW_77.html">DOE_GE_1.5MW_77</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="DOE_GE_1.5MW_77.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DOE_GE_1.5MW_77.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DOE_GE_1.5MW_77.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DOE_GE_1.5MW_77.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DOE_GE_1.5MW_77.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="IEA_3.4MW_130_RWT.html">IEA_3.4MW_130_RWT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="IEA_3.4MW_130_RWT.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEA_3.4MW_130_RWT.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEA_3.4MW_130_RWT.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEA_3.4MW_130_RWT.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEA_3.4MW_130_RWT.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="IEC_Class1_Normalized_Industry_Composite.html">IEC_Class1_Normalized_Industry_Composite</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class1_Normalized_Industry_Composite.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class1_Normalized_Industry_Composite.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class1_Normalized_Industry_Composite.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class1_Normalized_Industry_Composite.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class1_Normalized_Industry_Composite.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="IEC_Class2_Normalized_Industry_Composite.html">IEC_Class2_Normalized_Industry_Composite</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class2_Normalized_Industry_Composite.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class2_Normalized_Industry_Composite.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class2_Normalized_Industry_Composite.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class2_Normalized_Industry_Composite.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class2_Normalized_Industry_Composite.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="IEC_Class3_Normalized_Industry_Composite.html">IEC_Class3_Normalized_Industry_Composite</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class3_Normalized_Industry_Composite.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class3_Normalized_Industry_Composite.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class3_Normalized_Industry_Composite.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class3_Normalized_Industry_Composite.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class3_Normalized_Industry_Composite.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="VestasV47_660kW_47.html">VestasV47_660kW_47</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="VestasV47_660kW_47.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV47_660kW_47.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV47_660kW_47.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV47_660kW_47.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV47_660kW_47.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="VestasV82_1.65MW_82.html">VestasV82_1.65kW_82</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="VestasV82_1.65MW_82.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV82_1.65MW_82.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV82_1.65MW_82.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV82_1.65MW_82.html#cp-curve">Cp curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV82_1.65MW_82.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="WTK_Validation_IEC-1_normalized.html">WTK_Validation_IEC-1_normalized</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-1_normalized.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-1_normalized.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-1_normalized.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-1_normalized.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="WTK_Validation_IEC-2_normalized.html">WTK_Validation_IEC-2_normalized</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-2_normalized.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-2_normalized.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-2_normalized.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-2_normalized.html#sources">Sources</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="WTK_Validation_IEC-3_normalized.html">WTK_Validation_IEC-3_normalized</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-3_normalized.html#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-3_normalized.html#key-parameters">Key Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-3_normalized.html#power-curve">Power curve</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-3_normalized.html#sources">Sources</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="2017COE_Market_Average_2.3MW_113.html" class="btn btn-neutral float-right" title="2017COE_Market_Average_2.3MW_113" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="WTK_Validation_offshore_normalized.html" class="btn btn-neutral float-left" title="WTK_Validation_offshore_normalized" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Alliance for Sustainable Energy, LLC.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
