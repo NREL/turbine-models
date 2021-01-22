@@ -35,8 +35,6 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
-This turbine model originates from NREL's 2017 Cost of Wind Energy Review [#stehly2018]_.
-
 ===========
 Power curve
 ===========
@@ -51,10 +49,9 @@ Cp curve
 .. image:: \\images\\2017COE_Market_Average_2.3MW_113_Cp.png
   :width: 800
 
-==========
-References
-==========
+=======
+Sources
+=======
 
-.. [#stehly2018]  Stehly, Tyler, Philipp Beiter, Donna Heimiller and George Scott. 2018.
-     *2017 Cost of Wind Energy Review*. Golden, CO: National Renewable Energy Laboratory.
-     NREL/TP-6A20-72167. https://www.nrel.gov/docs/fy18osti/72167
+2017 Cost of Wind Energy Review:
+https://www.nrel.gov/docs/fy18osti/72167.pdf

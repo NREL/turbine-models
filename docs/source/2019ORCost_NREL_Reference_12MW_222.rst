@@ -35,8 +35,7 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
-This turbine model originates from a 2019 NREL Technical Report [#musial2020]_ 
-and was also used in NREL's 2019 Annual Technology Baseline [#atb]_.
+Note: This turbine model was also used in NREL's 2019 Annual Technology Baseline.
 
 ===========
 Power curve
@@ -52,13 +51,9 @@ Cp curve
 .. image:: \\images\\2019ORCost_NREL_Reference_12MW_222_Cp.png
   :width: 800
 
-==========
-References
-==========
+=======
+Sources
+=======
 
-.. [#musial2020]  Musial, Walter, Philipp Beiter, Jake Nunemaker, Donna Heimiller, Josh Ahmann, and Jason Busch. 2019.
-    Oregon Offshore Wind Site Feasibility and Cost Study.
-    NREL/TP-5000-74597. https://www.nrel.gov/docs/fy20osti/74597.pdf.
-
-.. [#atb]  NREL (National Renewable Energy Laboratory). 2019. 
-    "2019 Annual Technology Baseline." Golden, CO: National Renewable Energy Laboratory. https://atb.nrel.gov/. 
+NREL 2019 Oregon Cost report:
+https://www.nrel.gov/docs/fy20osti/74597.pdf
