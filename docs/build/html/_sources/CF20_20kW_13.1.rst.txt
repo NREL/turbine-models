@@ -1,0 +1,64 @@
+CF20_20kW_13.1
+==============
+
+====================
+Link to Tabular Data
+====================
+
+A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Distributed/CF20_20kW_13.1.csv>`_.
+
+==============
+Key Parameters
+==============
+
++------------------------+-------------------------+----------------+
+| Item                   | Value                   | Units          |
++========================+=========================+================+
+| Name                   | CF20                    | N/A            |
++------------------------+-------------------------+----------------+
+| Rated Power            | 20                      | kW             |
++------------------------+-------------------------+----------------+
+| Rated Wind Speed       | 9                       | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-in Wind Speed      | 3.5                     | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-out Wind Speed     | 25                      | m/s            |
++------------------------+-------------------------+----------------+
+| Rotor Diameter         | 13.1                    | m              |
++------------------------+-------------------------+----------------+
+| Hub Height             | 20.1                    | m              |
++------------------------+-------------------------+----------------+
+| Drivetrain             | Variable Speed          | N/A            |
++------------------------+-------------------------+----------------+
+| Control                | Pitch Regulated         | N/A            |
++------------------------+-------------------------+----------------+
+| IEC Class              | SWT III                 | N/A            |
++------------------------+-------------------------+----------------+
+
+===========
+Power curve
+===========
+
+.. image:: \\images\\CF20_20kW_13.1_Power.png
+  :width: 800
+
+========
+Cp curve
+========
+
+.. image:: \\images\\CF20_20kW_13.1_Cp.png
+  :width: 800
+
+=======
+Sources
+=======
+
+Intertek power performance test:
+https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Energy/Wind/100373741CRT-0012322012.pdf
+
+See also: 
+https://www.intertek.com/wind/directory/CF11/
+
+https://www.intertek.com/wind/directory/
+
+https://www.intertek.com/wind/small/RTC/

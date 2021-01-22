@@ -1,0 +1,50 @@
+WTK_Validation_offshore_normalized
+==================================
+
+====================
+Link to Tabular Data
+====================
+
+A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Offshore/WTK_Validation_offshore_normalized.csv>`_.
+
+==============
+Key Parameters
+==============
+
++------------------------+-------------------------+----------------+
+| Item                   | Value                   | Units          |
++========================+=========================+================+
+| Name                   | WTK Validation Offshore | N/A            |
++------------------------+-------------------------+----------------+
+| Rated Power            |                         | kW             |
++------------------------+-------------------------+----------------+
+| Rated Wind Speed       | 14                      | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-in Wind Speed      | 4                       | m/s            |
++------------------------+-------------------------+----------------+
+| Cut-out Wind Speed     | 25                      | m/s            |
++------------------------+-------------------------+----------------+
+| Rotor Diameter         |                         | m              |
++------------------------+-------------------------+----------------+
+| Hub Height             |                         | m              |
++------------------------+-------------------------+----------------+
+| Drivetrain             |                         | N/A            |
++------------------------+-------------------------+----------------+
+| Control                |                         | N/A            |
++------------------------+-------------------------+----------------+
+| IEC Class              |                         | N/A            |
++------------------------+-------------------------+----------------+
+
+===========
+Power curve
+===========
+
+.. image:: \\images\\WTK_Validation_offshore_normalized_Power.png
+  :width: 800
+
+=======
+Sources
+=======
+
+Normalized Offshore power curve from NREL report: "Validation of Power Output for the WIND Toolkit." Note Cp values are not available since rotor diameters are not included.
+https://www.nrel.gov/docs/fy14osti/61714.pdf
