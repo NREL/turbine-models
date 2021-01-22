@@ -35,6 +35,9 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+This turbine model was used for analysis in the 2020 NREL ATB [#atb]_ . It was based on an earlier 
+version of the IEA_15MW_240_RWT.
+
 ===========
 Power curve
 ===========
@@ -53,10 +56,7 @@ Cp curve
 Sources
 =======
 
-2020 Annual Technology Baseline (ATB):
-https://atb.nrel.gov/
+.. [#atb]  NREL (National Renewable Energy Laboratory). 2020. 
+    "2020 Annual Technology Baseline." Golden, CO: National Renewable Energy Laboratory. https://atb.nrel.gov/. 
 
-Offshore:
-https://atb.nrel.gov/electricity/2020/index.php?t=ow
-
-Note: This turbine model was based on an earlier version of the IEA_15MW_240_RWT (and scaled down with a constant specific power assumption).
+(Offshore): https://atb.nrel.gov/electricity/2020/index.php?t=ow

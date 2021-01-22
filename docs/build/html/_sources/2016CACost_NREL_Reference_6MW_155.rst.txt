@@ -35,7 +35,8 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
-Note: This turbine model was also used in NREL's 2019 Cost of Wind Energy Review and both the 2019 and 2020 Annual Technology Baseline.
+This turbine model originates from a 2016 NREL Technical Report [#musial2016]_. It was also 
+used in NREL's 2019 Cost of Wind Energy Review [#stehly2019]_ and both the 2019 and 2020 Annual Technology Baseline [#atb]_.
 
 ===========
 Power curve
@@ -51,9 +52,18 @@ Cp curve
 .. image:: images\\2016CACost_NREL_Reference_6MW_155_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-NREL 2016 CA cost report:
-https://www.nrel.gov/docs/fy17osti/67414.pdf
+.. [#musial2016]  Musial, W., Beiter, P., Tegen, S., and A. Smith. 2016.
+    *Potential Offshore Wind Energy Areas in California: An Assessment of Locations,
+    Technology, and Costs*. Golden, CO: National Renewable Energy Laboratory. 
+    NREL/TP-5000-67414. https://www.nrel.gov/docs/fy17osti/67414.pdf
+
+.. [#stehly2019]  Stehly, Tyler, Philipp Beiter and Patrick Duffy. 2020.
+    *2019 Cost of Wind Energy Review*. Golden, CO: National Renewable Energy Laboratory. 
+    NREL/TP-5000-78471. https://www.nrel.gov/docs/fy21osti/78471.pdf.
+
+.. [#atb]  NREL (National Renewable Energy Laboratory). 2020. 
+    "2020 Annual Technology Baseline." Golden, CO: National Renewable Energy Laboratory. https://atb.nrel.gov/. 
