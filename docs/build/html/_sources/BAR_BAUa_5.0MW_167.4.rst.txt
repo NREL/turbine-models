@@ -35,8 +35,7 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
-This turbine model originates from a Nature Energy publication [#wiser2016]_ and
- was used in NREL's Big Adaptive Rotor project [#johnson2019]_.
+This turbine model originates from a Nature Energy publication [#wiser2016]_ and was used in NREL's Big Adaptive Rotor project [#johnson2019]_.
 
 ===========
 Power curve

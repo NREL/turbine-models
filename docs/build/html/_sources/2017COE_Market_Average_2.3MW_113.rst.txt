@@ -36,7 +36,7 @@ Key Parameters
 +------------------------+-------------------------+----------------+
 
 This turbine model originates from NREL's 2017 Cost of Wind Energy Review [#stehly2018]_ 
-and was also used as the 'Today' turbine in a NREL Technical Report investigating the impact of tall towers [#lantz2019].
+and was also used as the 'Today' turbine in a NREL Technical Report investigating the impact of tall towers [#lantz2019]_.
 
 ===========
 Power curve

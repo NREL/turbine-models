@@ -53,10 +53,3 @@ patrick.duffy@nrel.gov
    Distributed
    Offshore
    Onshore
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`

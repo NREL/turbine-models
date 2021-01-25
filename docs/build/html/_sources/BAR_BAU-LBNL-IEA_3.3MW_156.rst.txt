@@ -37,7 +37,7 @@ Key Parameters
 
 
 This turbine model originates from NREL's Big Adaptive Rotor project [#johnson2019]_ and was also 
-used as the 'business as usual (BAU)' turbine in a NREL Technical Report investigating the impact of tall towers [#lantz2019].
+used as the 'business as usual (BAU)' turbine in a NREL Technical Report investigating the impact of tall towers [#lantz2019]_.
 
 ===========
 Power curve

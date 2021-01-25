@@ -35,8 +35,7 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
-This turbine model was used for analysis in the 2020 NREL ATB [#atb2020]_ . It was based on
- an earlier version of the `IEA_15MW_240_RWT <https://nrel.github.io/turbine-models/IEA_15MW_240_RWT.html>`_.
+This turbine model was used for analysis in the 2020 NREL ATB [#atb2020]_ . It was based on an earlier version of the `IEA_15MW_240_RWT <https://nrel.github.io/turbine-models/IEA_15MW_240_RWT.html>`_.
 
 ===========
 Power curve
