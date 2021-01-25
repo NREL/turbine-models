@@ -57,5 +57,4 @@ References
 ==========
 
 .. [#musial2020]  Musial, Walter, Philipp Beiter, Jake Nunemaker, Donna Heimiller, Josh Ahmann, and Jason Busch. 2019.
-    *Oregon Offshore Wind Site Feasibility and Cost Study*.
-    NREL/TP-5000-74597. https://www.nrel.gov/docs/fy20osti/74597.pdf.
+    *Oregon Offshore Wind Site Feasibility and Cost Study*. NREL/TP-5000-74597. https://www.nrel.gov/docs/fy20osti/74597.pdf.

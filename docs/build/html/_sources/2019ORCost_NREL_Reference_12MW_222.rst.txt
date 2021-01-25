@@ -60,5 +60,4 @@ References
     *Oregon Offshore Wind Site Feasibility and Cost Study*. NREL/TP-5000-74597. https://www.nrel.gov/docs/fy20osti/74597.pdf.
 
 .. [#atb2020]  NREL (National Renewable Energy Laboratory). 2020. 
-    "2020 Annual Technology Baseline: Offshore Wind." Golden, CO: National Renewable Energy Laboratory.
-     https://atb.nrel.gov/electricity/2020/index.php?t=ow. Accessed January 23, 2021.
+    "2020 Annual Technology Baseline: Offshore Wind." Golden, CO: National Renewable Energy Laboratory. https://atb.nrel.gov/electricity/2020/index.php?t=ow. Accessed January 23, 2021.

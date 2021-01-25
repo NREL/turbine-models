@@ -1,11 +1,11 @@
-SD6_5.2kW_5.5
-=============
+2019COE_DW100_100kW_27.6
+=================================
 
 ====================
 Link to Tabular Data
 ====================
 
-A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Distributed/SD6_5.2kW_5.5.csv>`_.
+A .csv file is available on `GitHub <https://github.com/NREL/turbine-models/blob/master/Distributed/2019COE_DW100_100kW_27.6.csv>`_.
 
 ==============
 Key Parameters
@@ -14,48 +14,47 @@ Key Parameters
 +------------------------+-------------------------+----------------+
 | Item                   | Value                   | Units          |
 +========================+=========================+================+
-| Name                   | SD6                     | N/A            |
+| Name                   | 2019 COE DW 100         | N/A            |
 +------------------------+-------------------------+----------------+
-| Rated Power            | 5.2                     | kW             |
+| Rated Power            | 100                     | kW             |
 +------------------------+-------------------------+----------------+
 | Rated Wind Speed       | 11                      | m/s            |
 +------------------------+-------------------------+----------------+
-| Cut-in Wind Speed      |                         | m/s            |
+| Cut-in Wind Speed      | 3                       | m/s            |
 +------------------------+-------------------------+----------------+
-| Cut-out Wind Speed     |                         | m/s            |
+| Cut-out Wind Speed     | 25                      | m/s            |
 +------------------------+-------------------------+----------------+
-| Rotor Diameter         |                         | m              |
+| Rotor Diameter         | 27.6                    | m              |
 +------------------------+-------------------------+----------------+
-| Hub Height             | 9                       | m              |
+| Hub Height             | 40                      | m              |
 +------------------------+-------------------------+----------------+
 | Drivetrain             |                         | N/A            |
 +------------------------+-------------------------+----------------+
 | Control                |                         | N/A            |
 +------------------------+-------------------------+----------------+
-| IEC Class              | SWT II                  | N/A            |
+| IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
-The performance data comes from a power performance test conducted by the Small Wind Certification Council (SWCC) [#swcc]_. Note there seems to be a typo in the units of the power output column in this document. It reads kW but should probably be Watts based on the 6kW inverter mentioned.
+This turbine model originates from a NREL's 2019 Cost of Wind Energy Review [#stehly2019]_.
 
 ===========
 Power curve
 ===========
 
-.. image:: \\images\\SD6_5.2kW_5.5_Power.png
+.. image:: images\\2019COE_DW100_100kW_27.6_Power.png
   :width: 800
 
 ========
 Cp curve
 ========
 
-.. image:: \\images\\SD6_5.2kW_5.5_Cp.png
+.. image:: images\\2019COE_DW100_100kW_27.6_Cp.png
   :width: 800
 
 ==========
 References
 ==========
 
-.. [#swcc] SWCC Small Wind Certification Council. 2011.
-    "ICC-SWCC Summary Report SWCC-11-04." Brea, CA: Small Wind Certification Council.
-    http://smallwindcertification.org/wp-content/uploads/2019/11/SWCC-11-04-Summary-Report-2019.pdf.
-    Accessed January 24, 2021.
+.. [#stehly2019]  Stehly, Tyler, Philipp Beiter and Patrick Duffy. 2020.
+    *2019 Cost of Wind Energy Review*. Golden, CO: National Renewable Energy Laboratory. 
+    NREL/TP-5000-78471. https://www.nrel.gov/docs/fy21osti/78471.pdf.

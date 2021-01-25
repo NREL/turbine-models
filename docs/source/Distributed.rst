@@ -12,6 +12,8 @@ Though the definition from WETO above is based more on application and location,
 .. toctree::
    :maxdepth: 2
 
+   2019COE_DW20_20kW_12.4
+   2019COE_DW100_100kW_27.6
    BergeyExcel10_8.9kW_7
    BergeyExcel15_15.6kW_9.6
    Bestwind30_27.2kW_13.1
