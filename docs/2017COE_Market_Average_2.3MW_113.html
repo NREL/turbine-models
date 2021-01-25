@@ -1,0 +1,331 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>2017COE_Market_Average_2.3MW_113 &mdash; NREL/turbine-models power curve archive 0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="2018COE_Market_Average_2.4MW_116" href="2018COE_Market_Average_2.4MW_116.html" />
+    <link rel="prev" title="Onshore Wind Turbine Documentation" href="Onshore.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> NREL/turbine-models power curve archive
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="Distributed.html">Distributed Wind Turbine Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Offshore.html">Offshore Wind Turbine Documentation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="Onshore.html">Onshore Wind Turbine Documentation</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">2017COE_Market_Average_2.3MW_113</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#link-to-tabular-data">Link to Tabular Data</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#key-parameters">Key Parameters</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#power-curve">Power curve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cp-curve">Cp curve</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="2018COE_Market_Average_2.4MW_116.html">2018COE_Market_Average_2.4MW_116</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_4MW_150.html">2020ATB_NREL_Reference_4MW_150</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_5.5MW_175.html">2020ATB_NREL_Reference_5.5MW_175</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_7MW_200.html">2020ATB_NREL_Reference_7MW_200</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU_LowSP_3.25MW_166.html">BAR_BAU_LowSP_3.25MW_166</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAUa_5.0MW_167.4.html">BAR_BAUa_5.0MW_167.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU-LBNL-IEA_3.3MW_156.html">BAR_BAU-LBNL-IEA_3.3MW_156</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_HighSP_5.0MW_134.9.html">BAR_HighSP_5.0MW_134.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_4.5MW_194.html">BAR_LowSP_4.5MW_194</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_6.5MW_234.html">BAR_LowSP_6.5MW_234</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DOE_GE_1.5MW_77.html">DOE_GE_1.5MW_77</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEA_3.4MW_130_RWT.html">IEA_3.4MW_130_RWT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class1_Normalized_Industry_Composite.html">IEC_Class1_Normalized_Industry_Composite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class2_Normalized_Industry_Composite.html">IEC_Class2_Normalized_Industry_Composite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class3_Normalized_Industry_Composite.html">IEC_Class3_Normalized_Industry_Composite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV47_660kW_47.html">VestasV47_660kW_47</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV82_1.65MW_82.html">VestasV82_1.65kW_82</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-1_normalized.html">WTK_Validation_IEC-1_normalized</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-2_normalized.html">WTK_Validation_IEC-2_normalized</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-3_normalized.html">WTK_Validation_IEC-3_normalized</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">NREL/turbine-models power curve archive</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="Onshore.html">Onshore Wind Turbine Documentation</a> &raquo;</li>
+        
+      <li>2017COE_Market_Average_2.3MW_113</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/2017COE_Market_Average_2.3MW_113.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="coe-market-average-2-3mw-113">
+<h1>2017COE_Market_Average_2.3MW_113<a class="headerlink" href="#coe-market-average-2-3mw-113" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="link-to-tabular-data">
+<h2>Link to Tabular Data<a class="headerlink" href="#link-to-tabular-data" title="Permalink to this headline">¶</a></h2>
+<p>A .csv file is available on <a class="reference external" href="https://github.com/NREL/turbine-models/blob/master/Onshore/2017COE_Market_Average_2.3MW_113.csv">GitHub</a>.</p>
+</div>
+<div class="section" id="key-parameters">
+<h2>Key Parameters<a class="headerlink" href="#key-parameters" title="Permalink to this headline">¶</a></h2>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 38%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Item</p></th>
+<th class="head"><p>Value</p></th>
+<th class="head"><p>Units</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Name</p></td>
+<td><p>2017 COE Market Average</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr class="row-odd"><td><p>Rated Power</p></td>
+<td><p>2300</p></td>
+<td><p>kW</p></td>
+</tr>
+<tr class="row-even"><td><p>Rated Wind Speed</p></td>
+<td></td>
+<td><p>m/s</p></td>
+</tr>
+<tr class="row-odd"><td><p>Cut-in Wind Speed</p></td>
+<td><p>3</p></td>
+<td><p>m/s</p></td>
+</tr>
+<tr class="row-even"><td><p>Cut-out Wind Speed</p></td>
+<td><p>25</p></td>
+<td><p>m/s</p></td>
+</tr>
+<tr class="row-odd"><td><p>Rotor Diameter</p></td>
+<td><p>113</p></td>
+<td><p>m</p></td>
+</tr>
+<tr class="row-even"><td><p>Hub Height</p></td>
+<td><p>86</p></td>
+<td><p>m</p></td>
+</tr>
+<tr class="row-odd"><td><p>Drivetrain</p></td>
+<td><p>Geared</p></td>
+<td><p>N/A</p></td>
+</tr>
+<tr class="row-even"><td><p>Control</p></td>
+<td></td>
+<td><p>N/A</p></td>
+</tr>
+<tr class="row-odd"><td><p>IEC Class</p></td>
+<td></td>
+<td><p>N/A</p></td>
+</tr>
+</tbody>
+</table>
+<p>This turbine model originates from NREL’s 2017 Cost of Wind Energy Review <a class="footnote-reference brackets" href="#stehly2018" id="id1">1</a>
+and was also used as the ‘Today’ turbine in a NREL Technical Report investigating the impact of tall towers [#lantz2019].</p>
+</div>
+<div class="section" id="power-curve">
+<h2>Power curve<a class="headerlink" href="#power-curve" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/2017COE_Market_Average_2.3MW_113_Power.png"><img alt="_images/2017COE_Market_Average_2.3MW_113_Power.png" src="_images/2017COE_Market_Average_2.3MW_113_Power.png" style="width: 800px;" /></a>
+</div>
+<div class="section" id="cp-curve">
+<h2>Cp curve<a class="headerlink" href="#cp-curve" title="Permalink to this headline">¶</a></h2>
+<a class="reference internal image-reference" href="_images/2017COE_Market_Average_2.3MW_113_Cp.png"><img alt="_images/2017COE_Market_Average_2.3MW_113_Cp.png" src="_images/2017COE_Market_Average_2.3MW_113_Cp.png" style="width: 800px;" /></a>
+</div>
+<div class="section" id="references">
+<h2>References<a class="headerlink" href="#references" title="Permalink to this headline">¶</a></h2>
+<dl class="footnote brackets">
+<dt class="label" id="stehly2018"><span class="brackets"><a class="fn-backref" href="#id1">1</a></span></dt>
+<dd><p>Stehly, Tyler, Philipp Beiter, Donna Heimiller and George Scott. 2018.
+<em>2017 Cost of Wind Energy Review</em>. Golden, CO: National Renewable Energy Laboratory.
+NREL/TP-6A20-72167. <a class="reference external" href="https://www.nrel.gov/docs/fy18osti/72167">https://www.nrel.gov/docs/fy18osti/72167</a></p>
+</dd>
+<dt class="label" id="lantz2019"><span class="brackets">2</span></dt>
+<dd><p>Lantz, Eric, Owen Roberts, Jake Nunemaker, Edgar DeMeo, Katherine Dykes, and George Scott.
+2019. <em>Increasing Wind Turbine Tower Heights: Opportunities and Challenges</em>. Golden, CO: National Renewable Energy Laboratory.
+NREL/TP-5000-73629. <a class="reference external" href="https://www.nrel.gov/docs/fy19osti/73629.pdf">https://www.nrel.gov/docs/fy19osti/73629.pdf</a>.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="2018COE_Market_Average_2.4MW_116.html" class="btn btn-neutral float-right" title="2018COE_Market_Average_2.4MW_116" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="Onshore.html" class="btn btn-neutral float-left" title="Onshore Wind Turbine Documentation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Alliance for Sustainable Energy, LLC.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

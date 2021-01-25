@@ -1,0 +1,322 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>NREL Turbine Archive &mdash; NREL/turbine-models power curve archive 0 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Distributed Wind Turbine Documentation" href="Distributed.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> NREL/turbine-models power curve archive
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Distributed.html">Distributed Wind Turbine Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Offshore.html">Offshore Wind Turbine Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Onshore.html">Onshore Wind Turbine Documentation</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">NREL/turbine-models power curve archive</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>NREL Turbine Archive</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="nrel-turbine-archive">
+<h1>NREL Turbine Archive<a class="headerlink" href="#nrel-turbine-archive" title="Permalink to this headline">¶</a></h1>
+<p>Welcome to the documentation for NREL’s wind turbine archive!</p>
+<p>The purpose of this archive is to compile public wind turbine data in one place for easy access.
+There is a focus on providing tabular power (and when available thrust) curve data in an accessible (.csv)
+format along with documentation.</p>
+<p><strong>Disclaimer</strong>: <em>This archive is in no means an endorsement of specific turbine
+models or individual companies.</em></p>
+<p>The documentation is broken into three categories:</p>
+<ul class="simple">
+<li><p>Distributed Wind Turbines</p></li>
+<li><p>Offshore Wind Turbines</p></li>
+<li><p>Onshore Wind Turbines</p></li>
+</ul>
+<div class="section" id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
+<p>The naming convention for each turbine is source or manufacturer + model + _rated power + _rotor diameter.</p>
+<p>RWT is an abbreviation of Reference Wind Turbine.</p>
+<p>Air density is assumed to be 1.225 kg/ m^3, unless otherwise specified in power performance testing documentation.</p>
+<p>The tabular data is available on GitHub: <a class="reference external" href="https://github.com/NREL/turbine-models">https://github.com/NREL/turbine-models</a></p>
+<p>Not all turbine models or power curves are developed with the same level of rigor.</p>
+<p>For onshore and offshore modeling work the following models have the most detailed (and accessible) documentation:</p>
+<ul class="simple">
+<li><p>IEA_3.4MW_130_RWT</p></li>
+<li><p>IEA_10MW_198_RWT</p></li>
+<li><p>IEA_15MW_240_RWT</p></li>
+<li><p>NREL_5MW_126_RWT</p></li>
+</ul>
+<p>In practice power curves may deviate from idealized reference model curves for a number of reasons. The Normalized Industry Composite machines have power curves that reflect modern control strategies around the cut-out wind speed. Several of the curves documented in this repository are based on measurements via power performance testing.</p>
+<p>If you have feedback or want to contribute please contact Patrick Duffy:
+<a class="reference external" href="mailto:patrick&#46;duffy&#37;&#52;&#48;nrel&#46;gov">patrick<span>&#46;</span>duffy<span>&#64;</span>nrel<span>&#46;</span>gov</a></p>
+<div class="toctree-wrapper compound">
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Distributed.html">Distributed Wind Turbine Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2019COE_DW20_20kW_12.4.html">2019COE_DW20_20kW_12.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019COE_DW100_100kW_27.6.html">2019COE_DW100_100kW_27.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BergeyExcel10_8.9kW_7.html">BergeyExcel10_8.9kW_7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BergeyExcel15_15.6kW_9.6.html">BergeyExcel15_15.6kW_9.6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Bestwind30_27.2kW_13.1.html">Bestwind30_27.2kW_13.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CF10(PhaseA)_10kW_11.15.html">CF10(PhaseA)_10kW_11.15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CF11(PhaseA)_11kW_11.15.html">CF11(PhaseA)_11kW_11.15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CF11_11kW_9.36.html">CF11_11kW_9.36</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CF15_15kW_11.15.html">CF15_15kW_11.15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="CF20_20kW_13.1.html">CF20_20kW_13.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="EntegrityEW50_50kW_15.html">EntegrityEW50_50kW_15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="FortisMontana_3.31kW_5.04.html">FortisMontana_3.31kW_5.04</a></li>
+<li class="toctree-l2"><a class="reference internal" href="GhrepowerFD21-50_61.2kW_21.5.html">GhrepowerFD21-50_61.2kW_21.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Jacobs31-20_12kW_9.45.html">Jacobs31-20_12kW_9.45</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kestrele400nb_2.5kW_4.html">Kestrele400nb_2.5kW_4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NPS100C-21_100kW_20.7.html">NPS100C-21_100kW_20.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NPS100C-24_95kW_24.4.html">NPS100C-24_95kW_24.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NPS100C-28_90kW_28.html">NPS100C-28_90kW_28</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NPS60C-24_60kW_24.4.html">NPS60C-24_60kW_24.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="PikaT701_1.5kW_3.html">PikaT701_1.5kW_3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SD6_5.2kW_5.5.html">SD6_5.2kW_5.5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="SWIFT_1kW_2.1.html">SWIFT_1kW_2.1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV27_225kW_27.html">VestasV27_225kW_27</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV29_225kW_29.html">VestasV29_225kW_29</a></li>
+<li class="toctree-l2"><a class="reference internal" href="XzeresSkystream3.7_2.1kW_3.7.html">XzeresSkystream3.7_2.1kW_3.7</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Offshore.html">Offshore Wind Turbine Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2016CACost_NREL_Reference_6MW_155.html">2016CACost_NREL_Reference_6MW_155</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2016CACost_NREL_Reference_8MW_180.html">2016CACost_NREL_Reference_8MW_180</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2016CACost_NREL_Reference_10MW_205.html">2016CACost_NREL_Reference_10MW_205</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019ORCost_NREL_Reference_12MW_222.html">2019ORCost_NREL_Reference_12MW_222</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2019ORCost_NREL_Reference_15MW_248.html">2019ORCost_NREL_Reference_15MW_248</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_12MW_214.html">2020ATB_NREL_Reference_12MW_214</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_15MW_240.html">2020ATB_NREL_Reference_15MW_240</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_18MW_263.html">2020ATB_NREL_Reference_18MW_263</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DTU_10MW_178_RWT_v1.html">DTU_10MW_178_RWT_v1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEA_10MW_198_RWT.html">IEA_10MW_198_RWT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEA_15MW_240_RWT.html">IEA_15MW_240_RWT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="LEANWIND_8MW_164_RWT.html">LEANWIND_8MW_164_RWT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="NREL_5MW_126_RWT.html">NREL_5MW_126_RWT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_offshore_normalized.html">WTK_Validation_offshore_normalized</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Onshore.html">Onshore Wind Turbine Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="2017COE_Market_Average_2.3MW_113.html">2017COE_Market_Average_2.3MW_113</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2018COE_Market_Average_2.4MW_116.html">2018COE_Market_Average_2.4MW_116</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_4MW_150.html">2020ATB_NREL_Reference_4MW_150</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_5.5MW_175.html">2020ATB_NREL_Reference_5.5MW_175</a></li>
+<li class="toctree-l2"><a class="reference internal" href="2020ATB_NREL_Reference_7MW_200.html">2020ATB_NREL_Reference_7MW_200</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU_LowSP_3.25MW_166.html">BAR_BAU_LowSP_3.25MW_166</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAUa_5.0MW_167.4.html">BAR_BAUa_5.0MW_167.4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_BAU-LBNL-IEA_3.3MW_156.html">BAR_BAU-LBNL-IEA_3.3MW_156</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_HighSP_5.0MW_134.9.html">BAR_HighSP_5.0MW_134.9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_4.5MW_194.html">BAR_LowSP_4.5MW_194</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BAR_LowSP_6.5MW_234.html">BAR_LowSP_6.5MW_234</a></li>
+<li class="toctree-l2"><a class="reference internal" href="DOE_GE_1.5MW_77.html">DOE_GE_1.5MW_77</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEA_3.4MW_130_RWT.html">IEA_3.4MW_130_RWT</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class1_Normalized_Industry_Composite.html">IEC_Class1_Normalized_Industry_Composite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class2_Normalized_Industry_Composite.html">IEC_Class2_Normalized_Industry_Composite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="IEC_Class3_Normalized_Industry_Composite.html">IEC_Class3_Normalized_Industry_Composite</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV47_660kW_47.html">VestasV47_660kW_47</a></li>
+<li class="toctree-l2"><a class="reference internal" href="VestasV82_1.65MW_82.html">VestasV82_1.65kW_82</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-1_normalized.html">WTK_Validation_IEC-1_normalized</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-2_normalized.html">WTK_Validation_IEC-2_normalized</a></li>
+<li class="toctree-l2"><a class="reference internal" href="WTK_Validation_IEC-3_normalized.html">WTK_Validation_IEC-3_normalized</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Distributed.html" class="btn btn-neutral float-right" title="Distributed Wind Turbine Documentation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, Alliance for Sustainable Energy, LLC.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
