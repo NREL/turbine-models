@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              | 1B                      | N/A            |
 +------------------------+-------------------------+----------------+
 
+This turbine model originates from IEA Task 37. A Technical Report is available [#gaertner2020]_ , and other data may be found in a GitHub repository for the project [#ieagh]_. 
+
 Note: The power curve data included is taken from the project's GitHub page, which is more recent than the curve in the original report.
 
 ===========
@@ -51,11 +53,13 @@ Cp curve
 .. image:: \\images\\IEA_15MW_240_RWT_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Gaertner, Evan, Jennifer Rinker, Latha Sethuraman, Frederik Zahle, Benjamin Anderson, Garrett Barter, Nikhar Abbas, Fanzhong Meng, Pietro Bortolotti, Witold Skrzypinski, George Scott, Roland Feil,  Henrik Bredmose, Katherine Dykes, Matt Shields, Christopher Allen, and Anthony Viselli. 2020. Definition of the IEA 15-Megawatt Offshore Reference Wind. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5000-75698. https://www.nrel.gov/docs/fy20osti/75698.pdf
+.. [#gaertner2020]  Gaertner, Evan, Jennifer Rinker, Latha Sethuraman, Frederik Zahle, Benjamin Anderson, Garrett Barter, Nikhar Abbas, Fanzhong Meng, Pietro Bortolotti, Witold Skrzypinski, George Scott, Roland Feil,  Henrik Bredmose, Katherine Dykes, Matt Shields, Christopher Allen, and Anthony Viselli. 2020. *Definition of the IEA 15-Megawatt Offshore Reference Wind Turbine*. International Energy Agency. NREL/TP-5000-75698. https://www.nrel.gov/docs/fy20osti/75698.pdf
 
-GitHub:
-https://github.com/IEAWindTask37/IEA-15-240-RWT
+.. [#ieagh] IEA Wind Task 37. 2020.
+    "GitHub - IEA Wind Task 37/IEA-15-240-RWT." International Energy Agency.
+    https://github.com/IEAWindTask37/IEA-15-240-RWT.
+    Accessed January 23, 2021.

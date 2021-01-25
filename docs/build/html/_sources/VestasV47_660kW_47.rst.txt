@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test in Section 11.1 conducted by Tripod Wind Energy in Denmark [#vestas]_.
+
 ===========
 Power curve
 ===========
@@ -49,10 +51,12 @@ Cp curve
 .. image:: \\images\\VestasV47_660kW_47_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Specifications (power curve measurement in Section 11.1):
+.. [#Vestas]  Vestas Wind Systems A/S. 2000.
+    *Vestas V47-660 kW with OptiTip and OptiSlip*. 
+    https://sti2d.ecolelamache.org/ressources/EE/premiere/TP/serie%202/Vestas_V47.pdf.
+    Accessed from ecolelamache.org January 24, 2021.
 
-https://sti2d.ecolelamache.org/ressources/EE/premiere/TP/serie%202/Vestas_V47.pdf

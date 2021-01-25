@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              | SWT III                 | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by Intertek [#intertek]_.
+
 ===========
 Power curve
 ===========
@@ -49,12 +51,14 @@ Cp curve
 .. image:: \\images\\CF20_20kW_13.1_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Intertek power performance test:
-https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Energy/Wind/100373741CRT-0012322012.pdf
+.. [#intertek] Intertek. 2011.
+    "Summary Test Report for the C&F Green Energy CF20." Cortland, NY: Intertek.
+    https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Energy/Wind/100373741CRT-0012322012.pdf.
+    Accessed January 23, 2021.
 
 See also: 
 https://www.intertek.com/wind/directory/CF11/

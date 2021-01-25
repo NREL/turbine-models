@@ -35,6 +35,9 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+This turbine model originates from a Nature Energy publication [#wiser2016]_ and
+ was used in NREL's Big Adaptive Rotor project [#johnson2019]_.
+
 ===========
 Power curve
 ===========
@@ -49,18 +52,13 @@ Cp curve
 .. image:: \\images\\BAR_BAUa_5.0MW_167.4_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Internal NREL documentation lists "Wiser et. al. (Nature Energy Expert Elicitation)" as a source for the BAR BAUa 5MW power curve. This is assumed to be:
-http://dx.doi.org/10.1038/nenergy.2016.135 
+.. [#wiser2016]  Wiser, Ryan, Karen Jenni, Joachim Seel, Erin Baker, Marueen Hand, Eric Lantz, and Aaron Smith. 
+    *Expert elicitation survey on future wind energy costs*. 
+    Nat Energy 1, 16135 (2016). https://doi.org/10.1038/nenergy.2016.135
 
-Big Adaptive Rotor (BAR) Project at NREL:
-https://www.nrel.gov/wind/big-adaptive-rotor.html
-
-BAR report:
-https://www.nrel.gov/docs/fy19osti/73605.pdf
-
-Tall Towers report:
-https://www.nrel.gov/docs/fy19osti/73629.pdf
+.. [#johnson2019]  Johnson, Nick, Pietro Bortolotti, Katherine Dykes, Garrett Barter, Patrick Moriarty, Scott Carron, Fabian Wendt, Paul Veers, Josh Paquette, Chris 
+    Kelly, and Brandon Ennis. 2019. *Investigation of Innovative Rotor Concepts for the Big Adaptive Rotor Project*. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5000-73605. https://www.nrel.gov/docs/fy19osti/73605.pdf.

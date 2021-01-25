@@ -35,6 +35,10 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by
+ the Small Wind Certification Council (SWCC) [#swcc]_. Other information
+ available from the manufacturer [#bergey]_.
+
 ===========
 Power curve
 ===========
@@ -49,12 +53,16 @@ Cp curve
 .. image:: \\images\\BergeyExcel15_15.6kW_9.6_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Manufacturer information:
-http://www.bergey.com/products/grid-tied-turbines/excel-15/
+.. [#swcc] SWCC Small Wind Certification Council. 2018.
+    "ICC-SWCC Summary Report LPP-16-05." Brea, CA: Small Wind Certification Council.
+    http://smallwindcertification.org/wp-content/uploads/2019/06/LPP-16-05-2019-Summary-Report.pdf.
+    Accessed January 23, 2021.
 
-SWCC power performance test:
-http://smallwindcertification.org/wp-content/uploads/2019/06/LPP-16-05-2019-Summary-Report.pdf
+.. [#bergey] Bergey Windpower Co.
+    "Excel 15 Bergey Windpower Co." Norman, OK: Bergey Windpower Co.
+    http://www.bergey.com/products/grid-tied-turbines/excel-15/.
+    Accessed January 23, 2021.

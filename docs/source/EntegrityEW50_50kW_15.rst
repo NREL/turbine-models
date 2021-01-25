@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by NREL  [#smith2011]_.
+
 Note turbine does not hit the reported 50 kW rated power at the rated wind speed in the performance test. See note in reference about blades being pitched to accommmodate air density at test site.
 
 ===========
@@ -51,9 +53,10 @@ Cp curve
 .. image:: \\images\\EntegrityEW50_50kW_15_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-NREL power performance test:
-https://www.nrel.gov/docs/fy11osti/51392.pdf
+.. [#smith2011]  Smith, J., A. Huskey, D. Jager, and J. Hur. 2011.
+    *Wind Turbine Generator System Power Performance Test Report for the Entegrity EW50 Wind Turbine*. Golden, CO: National Renewable Energy Laboratory. 
+    NREL/TP-5000-51392. https://www.nrel.gov/docs/fy11osti/51392.pdf.

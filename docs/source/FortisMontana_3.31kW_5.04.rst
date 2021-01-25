@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              | SWT II                  | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted for NREL by Intertek [#intertek]_ . Manufacturer information is also available [#manu]_.
+
 ===========
 Power curve
 ===========
@@ -49,12 +51,23 @@ Cp curve
 .. image:: \\images\\FortisMontana_3.31kW_5.04_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Manufacturer information:
-https://www.fortiswindenergy.com/montana/
+.. [#intertek] Intertek. 2012.
+    "Power Performance Test Report for the Fortis Wind Energy Montana." Cortland, NY: Intertek.
+    https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Energy/Wind/Fortis%20Power%20Performance%20Report.pdf.
+    Accessed January 23, 2021.
 
-Intertek power performance test for NREL:
-https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Energy/Wind/Fortis%20Power%20Performance%20Report.pdf
+.. [#manu]  Fortis Wind Energy. 2013-2021.
+    "Montana Small Wind Turbine - Fortis Wind Energy." Groningen, NL: Fortis Wind BV. https://www.fortiswindenergy.com/montana/. Accessed January 23, 2021.
+
+
+See also: 
+
+https://www.intertek.com/wind/directory/CF11/
+
+https://www.intertek.com/wind/directory/
+
+https://www.intertek.com/wind/small/RTC/

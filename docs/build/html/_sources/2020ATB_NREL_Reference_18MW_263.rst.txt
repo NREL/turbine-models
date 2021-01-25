@@ -35,6 +35,9 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+This turbine model was used for analysis in the 2020 NREL ATB [#atb2020]_ . It was scaled with a constant specific power 
+assumption from an earlier version of the `IEA_15MW_240_RWT <https://nrel.github.io/turbine-models/IEA_15MW_240_RWT.html>`_.
+
 ===========
 Power curve
 ===========
@@ -49,14 +52,9 @@ Cp curve
 .. image:: \\images\\2020ATB_NREL_Reference_18MW_263_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-2020 Annual Technology Baseline (ATB):
-https://atb.nrel.gov/
-
-Offshore:
-https://atb.nrel.gov/electricity/2020/index.php?t=ow
-
-Note: This turbine model was based on an earlier version of the IEA_15MW_240_RWT (and scaled with a constant specific power assumption).
+.. [#atb2020]  NREL (National Renewable Energy Laboratory). 2020. 
+    "2020 Annual Technology Baseline: Offshore Wind." Golden, CO: National Renewable Energy Laboratory. https://atb.nrel.gov/electricity/2020/index.php?t=ow. Accessed January 23, 2021.

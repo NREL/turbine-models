@@ -35,6 +35,9 @@ Key Parameters
 | IEC Class              | SWT II                  | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by
+ the Small Wind Certification Council (SWCC) [#swcc]_ . Additional information available from the manufacturer brochure [#bro]_. 
+
 ===========
 Power curve
 ===========
@@ -50,10 +53,16 @@ Cp curve
   :width: 800
 
 
-=======
-Sources
-=======
-SWCC power performance test:
-http://smallwindcertification.org/wp-content/uploads/2019/07/Summary-Report-10-20-20190709.pdf 
+==========
+References
+==========
 
-Manufacturer specs sheet: https://www.xzeres.com/wp-content/uploads/2019/01/7246-Spec-Sheet-Domestic-Skystream-3.7.pdf
+.. [#swcc]  SWCC Small Wind Certification Council. 2019.
+    "ICC-SWCC Summary Report SWCC-10-20." Brea, CA: Small Wind Certification Council.
+    http://smallwindcertification.org/wp-content/uploads/2019/07/Summary-Report-10-20-20190709.pdf.
+    Accessed January 24, 2021.
+
+.. [#bro]  XZERES. 2019.
+    "XZERES Skystream 3.1." Wilsonville, OR: XZERES.
+    https://www.xzeres.com/wp-content/uploads/2019/01/7246-Spec-Sheet-Domestic-Skystream-3.7.pdf.
+    Accessed January 24, 2021.

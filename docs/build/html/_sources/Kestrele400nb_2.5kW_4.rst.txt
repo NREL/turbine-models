@@ -35,6 +35,9 @@ Key Parameters
 | IEC Class              | II                      | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by
+ the Small Wind Certification Council (SWCC) [#swcc]_.
+
 ===========
 Power curve
 ===========
@@ -49,9 +52,11 @@ Cp curve
 .. image:: \\images\\Kestrele400nb_2.5kW_4_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-SWCC power performance test:
-http://smallwindcertification.org/wp-content/uploads/2020/04/Summary-Report-10-16-2020.pdf
+.. [#swcc] SWCC Small Wind Certification Council. 2018.
+    "ICC-SWCC Summary Report SWCC-10-16." Brea, CA: Small Wind Certification Council.
+    http://smallwindcertification.org/wp-content/uploads/2020/04/Summary-Report-10-16-2020.pdf. 
+    Accessed January 23, 2021.

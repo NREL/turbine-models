@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+This turbine model comes from the Leanwind project [#lw]_ and the accompanying report [#desmond2016]_.
+
 ===========
 Power curve
 ===========
@@ -49,12 +51,12 @@ Cp curve
 .. image:: \\images\\LEANWIND_8MW_164_RWT_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Cian Desmond et al 2016 J. Phys.: Conf. Ser. 753 092013
-https://iopscience.iop.org/article/10.1088/1742-6596/753/9/092013
+.. [#lw]  LEANWIND. 2016. 
+    "Results | LEANWIND."
+    https://www.leanwind.eu/results/. Accessed January 23, 2021.
 
-Leanwind Project:
-https://www.leanwind.eu/results/
+.. [#desmond2016]  Desmond, Cian, Jimmy Murphy, Lindert Blonk, and Wouter Haans. 2016. *Description of an 8 MW reference wind turbine*. J. Phys.: Conf. Ser. 753 092013. https://iopscience.iop.org/article/10.1088/1742-6596/753/9/092013. 

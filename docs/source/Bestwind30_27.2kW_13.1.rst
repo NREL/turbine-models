@@ -35,6 +35,9 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by
+ the Small Wind Certification Council (SWCC) [#swcc]_.
+
 ===========
 Power curve
 ===========
@@ -49,10 +52,11 @@ Cp curve
 .. image:: \\images\\Bestwind30_27.2kW_13.1_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-SWCC power performance test:
-http://smallwindcertification.org/wp-content/uploads/2019/09/Summary-Report-16-02-2019.pdf
-
+.. [#swcc] SWCC Small Wind Certification Council. 2015.
+    "ICC-SWCC Summary Report SWCC-16-02." Brea, CA: Small Wind Certification Council.
+    http://smallwindcertification.org/wp-content/uploads/2019/09/Summary-Report-16-02-2019.pdf.
+    Accessed January 23, 2021.

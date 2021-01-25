@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by Intertek [#intertek]_.
+
 Note that this machine is the same as the CF12, but has an inverter which caps maximum power at 11 kW. This likely explains why the rated wind speed 9 m/s instead of 11 m/s (wind speed at which AWEA defines the rated power for small wind turbines).
 
 ===========
@@ -51,14 +53,17 @@ Cp curve
 .. image:: \\images\\CF11(PhaseA)_11kW_11.15_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Intertek power performance test:
-https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Energy/Wind/101510200LHD-001a_BWEA%20Summary%20Report_CF11%20(phase%20A).pdf
+.. [#intertek] Intertek. 2014.
+    "Summary Report for the CF11 (Phase A) Small Wind Turbine." Surrey, UK: Intertek.
+    https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Energy/Wind/101510200LHD-001a_BWEA%20Summary%20Report_CF11%20(phase%20A).pdf.
+    Accessed January 23, 2021.
 
 See also: 
+
 https://www.intertek.com/wind/directory/CF11/
 
 https://www.intertek.com/wind/directory/

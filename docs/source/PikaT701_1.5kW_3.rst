@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              | SWT II                  | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by the Small Wind Certification Council (SWCC) [#swcc]_.
+
 ===========
 Power curve
 ===========
@@ -49,9 +51,11 @@ Cp curve
 .. image:: \\images\\PikaT701_1.5kW_3_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-SWCC power performance test:
-http://small-wind.org/download/certification_reports/T701.pdf
+.. [#swcc] SWCC Small Wind Certification Council. 2015.
+    "SWCC Summary Report SWCC-13-03."
+    http://small-wind.org/download/certification_reports/T701.pdf.
+    Accessed January 24, 2021.

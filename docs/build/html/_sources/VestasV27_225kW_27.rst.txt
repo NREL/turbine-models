@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by Risø National Laboratory in Denmark (now DTU Wind Energy) [#petersen1990]_.
+
 ===========
 Power curve
 ===========
@@ -49,10 +51,10 @@ Cp curve
 .. image:: \\images\\VestasV27_225kW_27_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Risoe (DTU) power performance test:
-
-https://www.osti.gov/etdeweb/servlets/purl/7795314
+.. [#Petersen1990]  Søren Markkilde Petersen. 1990.
+    *Wind Turbine Test Vestas V27-225 kW*. Roskilde, DK: Risø National Laboratory. 
+    Risø-M-2861. https://www.osti.gov/etdeweb/servlets/purl/7795314.

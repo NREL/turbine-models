@@ -35,7 +35,7 @@ Key Parameters
 | IEC Class              | I                       | N/A            |
 +------------------------+-------------------------+----------------+
 
-Note: The reference presents normalized power curves, but assumes 2MW turbine ratings and 100m hub heights for modeling in the report.
+Normalized IEC Class 1 power curve comes from a report validating power output for the WIND Toolkit [#king2014]_. The report presents normalized power curves, but assumes 2MW turbine ratings and 100m hub heights for modeling in the report. Cp values are not available since rotor diameters are not included.
 
 ===========
 Power curve
@@ -44,9 +44,10 @@ Power curve
 .. image:: \\images\\WTK_Validation_IEC-1_normalized_Power.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Normalized IEC Class 1 power curve from NREL report: "Validation of Power Output for the WIND Toolkit." Note Cp values are not available since rotor diameters are not included.
-https://www.nrel.gov/docs/fy14osti/61714.pdf
+.. [#king2014]  King, J., A. Clifton, and B.-M. Hodge. 2014.
+     *Validation of Power Output for the WIND Toolkit*. Golden, CO: National Renewable Energy Laboratory.
+     NREL/TP-5D00-61714. https://www.nrel.gov/docs/fy14osti/61714.pdf.

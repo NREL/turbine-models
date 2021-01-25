@@ -1,8 +1,11 @@
 Onshore Wind Turbine Documentation
 ==================================
 
-Documentation for the onshore turbines.
+This section offers documentation of the onshore wind turbines included in this database. 
 
+The Lawrence Berkeley National Laboratory provides an overview of the land-based wind market in Wind Technologies Market Reports. 
+
+2020 Update: https://emp.lbl.gov/wind-technologies-market-report
 
 .. toctree::
    :maxdepth: 2

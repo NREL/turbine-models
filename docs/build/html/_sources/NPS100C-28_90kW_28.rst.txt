@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              | Class S                 | N/A            |
 +------------------------+-------------------------+----------------+
 
+Data from a manufacturer brochure [#bro]_.
+
 ===========
 Power curve
 ===========
@@ -49,9 +51,10 @@ Cp curve
 .. image:: \\images\\NPS100C-28_90kW_28_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Datasheet:
-http://nps100.com/wp-content/uploads/2019/10/brochure-NPS-100C-28_ed2019_light_ENG.pdf
+.. [#bro] Northern Power Systems. 2019. 
+    "brochure-NPS-100C-28_ed2019_light_ENG." 
+    http://nps100.com/wp-content/uploads/2019/10/brochure-NPS-100C-28_ed2019_light_ENG.pdf. Accessed January 23, 2021.

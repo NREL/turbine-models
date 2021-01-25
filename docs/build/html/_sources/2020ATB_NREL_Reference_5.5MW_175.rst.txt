@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              |                                | N/A            |
 +------------------------+--------------------------------+----------------+
 
+This turbine model was used for analysis in the 2020 NREL ATB [#atb2020]_ .
+
 ===========
 Power curve
 ===========
@@ -49,11 +51,9 @@ Cp curve
 .. image:: \\images\\2020ATB_NREL_Reference_5.5MW_175_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-2020 Annual Technology Baseline (ATB):
-https://atb.nrel.gov/
-
-(Land-Based Wind): https://atb.nrel.gov/electricity/2020/index.php?t=lw
+.. [#atb2020]  NREL (National Renewable Energy Laboratory). 2020. 
+    "2020 Annual Technology Baseline: Land-Based Wind." Golden, CO: National Renewable Energy Laboratory. https://atb.nrel.gov/electricity/2020/index.php?t=lw. Accessed January 23, 2021.

@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              | IIb                     | N/A            |
 +------------------------+-------------------------+----------------+
 
+The power curves come from the calculated power curves in a general specifications document [#vestas]_ . Further information comes from the product brochure [#bro]_.
+
 ===========
 Power curve
 ===========
@@ -49,12 +51,16 @@ Cp curve
 .. image:: \\images\\VestasV82_1.65MW_82_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Specifications (power curve calculated):
-http://www.calco.state.mn.us/commerce/energyfacilities/documents/18884/General%20Specifications%20V82-1.65%20MW%20MK%20II.pdf
+.. [#Vestas]  Vestas Wind Systems A/S. No Date.
+    *General Specification - V82-1.65 MW MK II*. 
+    http://www.calco.state.mn.us/commerce/energyfacilities/documents/18884/General%20Specifications%20V82-1.65%20MW%20MK%20II.pdf.
+    Accessed from calco.state.mn.us January 24, 2021.
 
-Brochure:
-https://www.edprnorthamerica.com/wp-content/uploads/2014/04/V82.pdf
+.. [#bro] Vestas Wind Systems A/S. No Date.
+    *V82-1.65 MW - Creating more from less*. 
+    https://www.edprnorthamerica.com/wp-content/uploads/2014/04/V82.pdf.
+    Accessed from edprnorthamerica.com January 24, 2021.

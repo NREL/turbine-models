@@ -35,6 +35,9 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+This turbine model originates from a 2019 NREL Technical Report assessing offshore wind in Oregon [#musial2020]_ 
+but was based on an early version of the `IEA_15MW_240_RWT <https://nrel.github.io/turbine-models/IEA_15MW_240_RWT.html>`_.
+
 ===========
 Power curve
 ===========
@@ -49,11 +52,9 @@ Cp curve
 .. image:: \\images\\2019ORCost_NREL_Reference_15MW_248_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-NREL 2019 Oregon Cost report:
-https://www.nrel.gov/docs/fy20osti/74597.pdf
-
-Note: This turbine model was based on an early version of the IEA_15MW_240_RWT.
+.. [#musial2020]  Musial, Walter, Philipp Beiter, Jake Nunemaker, Donna Heimiller, Josh Ahmann, and Jason Busch. 2019.
+    *Oregon Offshore Wind Site Feasibility and Cost Study*. NREL/TP-5000-74597. https://www.nrel.gov/docs/fy20osti/74597.pdf.

@@ -1,7 +1,11 @@
 Offshore Wind Turbine Documentation
 ===================================
 
-Documentation for the offshore turbines.
+This section offers documentation of the offshore wind turbines included in this database. 
+
+The National Renewable Energy Laboratory provides an overview of the offshore wind market in Offshore Wind Technologies Market Reports and Data Updates. 
+
+2019 Data Update: https://www.nrel.gov/docs/fy21osti/77411.pdf
 
 .. toctree::
    :maxdepth: 2

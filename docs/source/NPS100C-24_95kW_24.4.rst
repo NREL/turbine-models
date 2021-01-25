@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              | III-A                   | N/A            |
 +------------------------+-------------------------+----------------+
 
+Data from a manufacturer brochure [#bro]_.
+
 ===========
 Power curve
 ===========
@@ -49,9 +51,10 @@ Cp curve
 .. image:: \\images\\NPS100C-24_95kW_24.4_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Datasheet:
-http://nps100.com/wp-content/uploads/2019/10/brochure-NPS-100C-24_ed2019_light_ENG.pdf
+.. [#bro] Northern Power Systems. 2019. 
+    "brochure-NPS-100C-24_ed2019_light_ENG." 
+    http://nps100.com/wp-content/uploads/2019/10/brochure-NPS-100C-24_ed2019_light_ENG.pdf. Accessed January 23, 2021.

@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted by NREL [#mendoza2015]_.
+
 ===========
 Power curve
 ===========
@@ -49,9 +51,10 @@ Cp curve
   :width: 800
 
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-NREL power performance test:
-https://www.nrel.gov/docs/fy13osti/56499.pdf
+.. [#mendoza2015]  Ismael Mendoza and Jerry Hur. 2015.
+    *Power Performance Test Report for the SWIFT Wind Turbine*. Golden, CO: National Renewable Energy Laboratory. 
+    NREL/TP-5000-56499. https://www.nrel.gov/docs/fy13osti/56499.pdf.

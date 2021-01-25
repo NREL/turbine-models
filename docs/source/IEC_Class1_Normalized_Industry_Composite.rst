@@ -49,8 +49,8 @@ Cp curve
 .. image:: \\images\\IEC_Class1_Normalized_Industry_Composite_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
 Normalized composite power curve produced by NREL with data from two commercially available onshore IEC Class I machines.

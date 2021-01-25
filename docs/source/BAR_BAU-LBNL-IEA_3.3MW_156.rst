@@ -35,6 +35,10 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+
+This turbine model originates from NREL's Big Adaptive Rotor project [#johnson2019]_ and was also 
+used as the 'business as usual (BAU)' turbine in a NREL Technical Report investigating the impact of tall towers [#lantz2019].
+
 ===========
 Power curve
 ===========
@@ -49,15 +53,14 @@ Cp curve
 .. image:: \\images\\BAR_BAU-LBNL-IEA_3.3MW_156_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Big Adaptive Rotor (BAR) Project at NREL:
-https://www.nrel.gov/wind/big-adaptive-rotor.html
+.. [#johnson2019]  Johnson, Nick, Pietro Bortolotti, Katherine Dykes, Garrett Barter, Patrick Moriarty, Scott Carron, Fabian Wendt, Paul Veers, Josh Paquette, Chris 
+    Kelly, and Brandon Ennis. 2019. *Investigation of Innovative Rotor Concepts for the Big Adaptive Rotor Project*. Golden, CO: National Renewable Energy Laboratory. NREL/TP-5000-73605. https://www.nrel.gov/docs/fy19osti/73605.pdf.
 
-BAR report:
-https://www.nrel.gov/docs/fy19osti/73605.pdf
 
-Tall Towers report:
-https://www.nrel.gov/docs/fy19osti/73629.pdf
+.. [#lantz2019]  Lantz, Eric, Owen Roberts, Jake Nunemaker, Edgar DeMeo, Katherine Dykes, and George Scott. 
+    2019. *Increasing Wind Turbine Tower Heights: Opportunities and Challenges*. Golden, CO: National Renewable Energy Laboratory. 
+    NREL/TP-5000-73629. https://www.nrel.gov/docs/fy19osti/73629.pdf.

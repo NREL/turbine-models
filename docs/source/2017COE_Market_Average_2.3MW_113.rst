@@ -35,6 +35,9 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+This turbine model originates from NREL's 2017 Cost of Wind Energy Review [#stehly2018]_ 
+and was also used as the 'Today' turbine in a NREL Technical Report investigating the impact of tall towers [#lantz2019].
+
 ===========
 Power curve
 ===========
@@ -49,9 +52,15 @@ Cp curve
 .. image:: \\images\\2017COE_Market_Average_2.3MW_113_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-2017 Cost of Wind Energy Review:
-https://www.nrel.gov/docs/fy18osti/72167.pdf
+.. [#stehly2018]  Stehly, Tyler, Philipp Beiter, Donna Heimiller and George Scott. 2018.
+     *2017 Cost of Wind Energy Review*. Golden, CO: National Renewable Energy Laboratory.
+     NREL/TP-6A20-72167. https://www.nrel.gov/docs/fy18osti/72167
+
+.. [#lantz2019]  Lantz, Eric, Owen Roberts, Jake Nunemaker, Edgar DeMeo, Katherine Dykes, and George Scott. 
+    2019. *Increasing Wind Turbine Tower Heights: Opportunities and Challenges*. Golden, CO: National Renewable Energy Laboratory. 
+    NREL/TP-5000-73629. https://www.nrel.gov/docs/fy19osti/73629.pdf.
+    

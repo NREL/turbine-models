@@ -35,6 +35,10 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test on page 19 conducted by Tripod Wind Energy in Denmark [#vestas]_.
+
+Note that Power and Cp were both measured up to 15.3 m/s as 10 min bin averages, but above this the wind speeds and power measurements are 1 min bin averages and the Cp values are calculated based on the power equation above this wind speed as they are not reported.
+
 ===========
 Power curve
 ===========
@@ -50,10 +54,11 @@ Cp curve
   :width: 800
 
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Power performance test: http://www.orkneywind.co.uk/explore/Skea%20Brae/Vesta%20V29%20225%20Turbine.pdf
-
-Note that Power and Cp were both measured up to 15.3 m/s as 10 min bin averages, but above this the wind speeds and power measurements are 1 min bin averages and the Cp values are calculated based on the power equation above this wind speed as they are not reported.
+.. [#Vestas]  Vestas Wind Systems A/S. 1996.
+    *General Specification - Vestas V29-225 kW 50 Hz Wind Turbine*. 
+    http://www.orkneywind.co.uk/explore/Skea%20Brae/Vesta%20V29%20225%20Turbine.pdf.
+    Accessed from orkneywind.co.uk January 24, 2021.

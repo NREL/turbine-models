@@ -1,9 +1,13 @@
 Distributed Wind Turbine Documentation
 ======================================
 
-The Wind Energy Technologies Office of the U.S. Department of Energy defines distributed wind here: https://www.energy.gov/eere/wind/distributed-wind 
+The Wind Energy Technologies Office (WETO) of the U.S. Department of Energy defines distributed wind here: https://www.energy.gov/eere/wind/distributed-wind.
 
-Though the definition above is based more on application and location, for the purposes of this database any turbines with a rated power of greater than 500 kW are included in the 'Onshore' category.
+The Pacific Northwest National Laboratory provides an overview of the distributed wind market in the Distributed Wind Market Report: 
+https://www.pnnl.gov/distributed-wind.
+
+
+Though the definition from WETO above is based more on application and location, for the purposes of this database any turbines with a rated power of greater than 500 kW are included in the 'Onshore' category.
 
 .. toctree::
    :maxdepth: 2

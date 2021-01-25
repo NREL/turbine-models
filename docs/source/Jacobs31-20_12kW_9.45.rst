@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              | II                      | N/A            |
 +------------------------+-------------------------+----------------+
 
+The performance data comes from a power performance test conducted for NREL by Intertek [#intertek]_.
+
 ===========
 Power curve
 ===========
@@ -49,9 +51,19 @@ Cp curve
 .. image:: \\images\\Jacobs31-20_12kW_9.45_Cp.png
   :width: 800
 
-=======
-Sources
-=======
+==========
+References
+==========
 
-Intertek power performance test for NREL:
-https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Energy/Wind/Wind%20Turbine%20Industries%20Power%20Performance%20Report.pdf
+.. [#intertek] Intertek. 2012.
+    "Power Performance Test Report for the WTIC Jacobs 31-20 Wind Energy System." Cortland, NY: Intertek.
+    https://www.intertek.com/uploadedFiles/Intertek/Divisions/Commercial_and_Electrical/Media/PDF/Energy/Wind/Wind%20Turbine%20Industries%20Power%20Performance%20Report.pdf.
+    Accessed January 23, 2021.
+
+See also: 
+
+https://www.intertek.com/wind/directory/CF11/
+
+https://www.intertek.com/wind/directory/
+
+https://www.intertek.com/wind/small/RTC/

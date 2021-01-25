@@ -35,6 +35,8 @@ Key Parameters
 | IEC Class              | II-A                    | N/A            |
 +------------------------+-------------------------+----------------+
 
+Data from a manufacturer brochure [#bro]_.
+
 ===========
 Power curve
 ===========
@@ -49,9 +51,10 @@ Cp curve
 .. image:: \\images\\NPS100C-21_100kW_20.7_Cp.png
   :width: 800
   
-=======
-Sources
-=======
+==========
+References
+==========
 
-Datasheet:
-https://www.energy-xprt.com/downloads/nps-model-100c-21-class-ii-a-brochure-683405
+.. [#bro] Northern Power Systems. 2019. 
+    "NPS - Model 100C Class II/A Brochure." 
+    https://www.energy-xprt.com/downloads/nps-model-100c-21-class-ii-a-brochure-683405. Accessed January 23, 2021.
