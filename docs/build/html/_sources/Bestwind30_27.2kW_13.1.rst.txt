@@ -35,8 +35,7 @@ Key Parameters
 | IEC Class              |                         | N/A            |
 +------------------------+-------------------------+----------------+
 
-The performance data comes from a power performance test conducted by
- the Small Wind Certification Council (SWCC) [#swcc]_.
+The performance data comes from a power performance test conducted by the Small Wind Certification Council (SWCC) [#swcc]_.
 
 ===========
 Power curve
