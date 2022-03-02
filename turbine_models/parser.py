@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Functions for helping the fy21 onshore atb runs along.
+"""Functions for listing and accessing turbine-model data.
 
 Created on Wed Apr 21 14:12:17 2021
 
