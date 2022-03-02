@@ -113,9 +113,8 @@ class Turbines:
         turbines = {key: value["name"] for key, value in full_turbines.items()}
         return turbines
 
-    def _interpolate(self, curve, interval=0.25):
-        """Interpolate curves to have equal intervals."""
-        # Interpolate to even scale
+    def _interpolate(self, curve, interval):
+        # Interpolate curves to have equal intervals.
         ws = np.arange(
             round(min(curve[:,0]), 2),
             round(max(curve[:,0]), 2),
