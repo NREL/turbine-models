@@ -5,7 +5,6 @@ Created on Wed Apr 21 14:12:17 2021
 
 @author: twillia2
 """
-import pkg_resources
 import os
 import sys
 
@@ -14,6 +13,7 @@ if sys.version_info < (3, 9):
 else:
     import importlib.resources as importlib_resources
 
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import turbine_models
@@ -53,6 +53,30 @@ class Turbines:
         curve = df.iloc[:, :2].values
         curve = self._interpolate(curve, interval)
         return curve
+
+    def plot(self, index, group="onshore", field="power_kw",
+             interval=0.25):
+        """Plot an interpolated power curve for a specific turbine.
+        
+        Parameters
+        ----------
+        index : int
+            Index position of turbine in table for given group.
+        group : str
+            Group name in which target turbine is contained.
+        field : str
+            Target field in turbine table (power_kw, cp, etc.).
+        interval : int | float
+            Windspeed interval in which to return target field values.
+        """
+        # Get the name
+        name = self.turbines(group)[index]
+        curve = self.curve(index, group, field, interval)
+        fig, ax = plt.subplots(1, 1)
+        ax.plot(curve[:, 0], curve[:, 1])
+        fig.suptitle(name)
+        ax.set_ylabel(field)
+        ax.set_xlabel("windspeed_ms")
 
     @property
     def groups(self):
@@ -162,3 +186,7 @@ class Turbines:
             turbines[i]["name"] = name
             turbines[i]["path"] = path
         return turbines
+
+
+if __name__ == "__main__":
+    turbines = Turbines()
