@@ -69,7 +69,6 @@ class Turbines:
         interval : int | float
             Windspeed interval in which to return target field values.
         """
-        # Get the name
         name = self.turbines(group)[index]
         curve = self.curve(index, group, field, interval)
         fig, ax = plt.subplots(1, 1)
@@ -186,7 +185,3 @@ class Turbines:
             turbines[i]["name"] = name
             turbines[i]["path"] = path
         return turbines
-
-
-if __name__ == "__main__":
-    turbines = Turbines()
