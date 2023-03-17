@@ -99,7 +99,7 @@ class Turbines:
         return paths
 
     def table(self, index, group="onshore"):
-        """Get a specific turbine power  table.
+        """Get a specific turbine power table.
 
         Parameters
         ----------
@@ -139,11 +139,12 @@ class Turbines:
     def _interpolate(self, curve, interval):
         # Interpolate curves to have equal intervals.
         ws = np.arange(
-            round(min(curve[:,0]), 2),
-            round(max(curve[:,0]), 2),
+            0,
+            interval * round(max(curve[:, 0]) / interval),
             interval
         )
         p = np.interp(ws, curve[:, 0], curve[:, 1])
+        p[p < 0] = 0
 
         # Add in 0 to min windspeed
         if ws[0] != 0:
