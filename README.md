@@ -3,6 +3,13 @@
 
 The intention of this repositiory is to provide power curves and key data for commonly used turbine models in industry the R&D community. 
 
+## Install editable version 
+    ```
+    conda create --name turb_mods python=3.9 -y
+    conda activate turb_mods
+    pip install -e .
+    ```
+    
 ## Structure
 Tabular power (and thrust when available) curve data is stored in the following folders:
 - Distributed Wind Turbines

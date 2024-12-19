@@ -9,7 +9,7 @@ setup(
                  "turbine models in industry the R&D community."),
     author="Patrick Duffy & Travis Williams",
     author_email="patrick.duffy@nrel.gov",
-    install_requires=["numpy", "pandas"],
+    install_requires=["numpy", "pandas","matplotlib"],
     include_package_data=True,
     pacakage_data={
         "data": [
