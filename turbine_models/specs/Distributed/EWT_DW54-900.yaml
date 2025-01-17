@@ -1,0 +1,15 @@
+name:  EWT_DW54-900 #N/A
+rated_power: 900 #kW
+rated_wind_speed: 13.5 #m/s
+cut_in_wind_speed: 2.5 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 54 #m
+hub_height: 40 #m (can be 40,50 or 75m)
+drivetrain: synchronous multi-pole #N/A
+control: pitch-controlled #N/A
+iec_class: III-A #N/A
+category: Distributed
+power_curve_file: Distributed/EWT_DW54-900.csv
+
+# notes:
+# - https://ewtdirectwind.com/wp-content/uploads/2018/04/EWT_Flyer-dw54-900kW.pdf
