@@ -1,0 +1,12 @@
+name: V29 #N/A
+rated_power: 225 #kW
+rated_wind_speed: 14 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 29 #m
+hub_height: 31 #m
+drivetrain: Geared #N/A
+control: Pitch Regulated #N/A
+iec_class:  #N/A
+category: Distributed
+power_curve_file: Distributed/VestasV29_225kW_29.csv

@@ -1,0 +1,12 @@
+name: Fortis_Montana #N/A
+rated_power: 3.31 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 2.5 #m/s
+cut_out_wind_speed:  #m/s
+rotor_diameter: 5.04 #m
+hub_height: 36.8 #m
+drivetrain: Variable Speed #N/A
+control: Furling (passive) #N/A
+iec_class: SWT II #N/A
+category: Distributed
+power_curve_file: Distributed/FortisMontana_3.31kW_5.04.csv

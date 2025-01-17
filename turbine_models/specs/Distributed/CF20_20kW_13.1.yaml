@@ -1,0 +1,12 @@
+name: CF20 #N/A
+rated_power: 20 #kW
+rated_wind_speed: 9 #m/s
+cut_in_wind_speed: 3.5 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 13.1 #m
+hub_height: 20.1 #m
+drivetrain: Variable Speed #N/A
+control: Pitch Regulated #N/A
+iec_class: SWT III #N/A
+category: Distributed
+power_curve_file: Distributed/CF20_20kW_13.1.csv

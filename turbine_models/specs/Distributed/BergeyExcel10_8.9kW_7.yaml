@@ -1,0 +1,12 @@
+name: Bergey_Excel_10 #N/A
+rated_power: 8.9 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 2.5 #m/s
+cut_out_wind_speed:  #m/s
+rotor_diameter: 7 #m
+hub_height: [18, 30, 49] #18-49 #m
+drivetrain: Direct Drive #N/A
+control:  #N/A
+iec_class:  #N/A
+category: Distributed
+power_curve_file: Distributed/BergeyExcel10_8.9kW_7.csv

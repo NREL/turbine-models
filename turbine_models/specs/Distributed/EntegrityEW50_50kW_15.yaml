@@ -1,0 +1,12 @@
+name: Entegrity_EW50 #N/A
+rated_power: 50 #kW
+rated_wind_speed: 11.3 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 14.9 #m
+hub_height: 31.1 #m
+drivetrain: Variable Speed #N/A
+control: Stall Regulated #N/A
+iec_class:  #N/A
+category: Distributed
+power_curve_file: Distributed/EntegrityEW50_50kW_15.csv

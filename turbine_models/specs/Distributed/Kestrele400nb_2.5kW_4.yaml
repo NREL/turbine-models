@@ -1,0 +1,12 @@
+name: Kestrel_e400nb #N/A
+rated_power: 2.5 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed:  #m/s
+rotor_diameter: 4 #m
+hub_height: Varies #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class: II #N/A
+category: Distributed
+power_curve_file: Distributed/Kestrele400nb_2.5kW_4.csv

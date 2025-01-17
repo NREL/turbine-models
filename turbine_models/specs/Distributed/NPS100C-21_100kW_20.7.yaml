@@ -1,0 +1,13 @@
+name: NPS_100c-21 #N/A
+rated_power: 100 #kW
+rated_wind_speed: 15 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 20.7 #m
+hub_height: [22,29,37]  #m
+drivetrain: Direct #N/A
+control:  #N/A
+iec_class: II-A #N/A
+category: Distributed
+power_curve_file: Distributed/NPS100C-21_100kW_20.7.csv
+#https://www.pytech-demo.it/nps100/wp-content/uploads/2022/10/brochure-NPS-100C-21_ed2020_light_ENG-1.pdf

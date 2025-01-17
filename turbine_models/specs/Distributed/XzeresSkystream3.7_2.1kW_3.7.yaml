@@ -1,0 +1,12 @@
+name: Xzeres_Skystream_3.7 #N/A
+rated_power: 2.1 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 3.7 #m
+hub_height: 16 #m - based on https://skystreamturbines.com
+drivetrain:  #N/A
+control:  #N/A
+iec_class: SWT II #N/A
+category: Distributed
+power_curve_file: Distributed/XzeresSkystream3.7_2.1kW_3.7.csv

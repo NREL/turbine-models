@@ -1,0 +1,12 @@
+name: CF11 #N/A
+rated_power: 11 #kW
+rated_wind_speed: 9 #m/s
+cut_in_wind_speed: 3.0 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 9.36 #m
+hub_height: 15.65 #m
+drivetrain: Variable Speed #N/A
+control: Pitch Regulated #N/A
+iec_class: SWT III #N/A
+category: Distributed
+power_curve_file: Distributed/CF11_11kW_9.36.csv

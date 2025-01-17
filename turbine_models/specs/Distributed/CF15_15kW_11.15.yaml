@@ -1,0 +1,12 @@
+name: CF15 #N/A
+rated_power: 15 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 3.5 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 11.15 #m
+hub_height: 15.35 #m
+drivetrain: Variable Speed #N/A
+control: Pitch Regulated #N/A
+iec_class: SWT III #N/A
+category: Distributed
+power_curve_file: Distributed/CF15_15kW_11.15.csv

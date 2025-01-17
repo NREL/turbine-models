@@ -1,0 +1,12 @@
+name: 2019_COE_DW_100 #N/A
+rated_power: 100 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 27.6 #m
+hub_height: 40 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class:  #N/A
+category: Distributed
+power_curve_file: Distributed/2019COE_DW100_100kW_27.6.csv

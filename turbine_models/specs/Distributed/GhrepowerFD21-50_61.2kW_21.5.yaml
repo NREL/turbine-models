@@ -1,0 +1,12 @@
+name: FD21-50 #N/A
+rated_power: 61.2 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 2.5 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 21.5 #m
+hub_height: 36 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class: II-A #N/A
+category: Distributed
+power_curve_file: Distributed/GhrepowerFD21-50_61.2kW_21.5.csv

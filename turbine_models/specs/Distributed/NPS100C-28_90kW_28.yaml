@@ -1,0 +1,12 @@
+name: NPS_100C-28 #N/A
+rated_power: 90 #kW
+rated_wind_speed: 12 #m/s
+cut_in_wind_speed: 2.5 #m/s
+cut_out_wind_speed: 20 #m/s
+rotor_diameter: 28 #m
+hub_height: [30, 37] #m
+drivetrain: Direct Drive #N/A
+regulation:  #N/A
+iec_class: Class S #N/A
+category: Distributed
+power_curve_file: Distributed/NPS100C-28_90kW_28.csv

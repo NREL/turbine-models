@@ -1,0 +1,12 @@
+name: Pika_T701 #N/A
+rated_power: 1.5 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed:  #m/s
+rotor_diameter: 3 #m
+hub_height: 17 #m
+drivetrain:  #N/A
+control: Stall Regulated #N/A
+iec_class: SWT II #N/A
+category: Distributed
+power_curve_file: Distributed/PikaT701_1.5kW_3.csv
