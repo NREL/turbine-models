@@ -17,7 +17,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import turbine_models
-
+import yaml
 
 class Turbines:
     """Access power curves from NREL's turbine-models repository."""
@@ -95,7 +95,15 @@ class Turbines:
         """Return posix path object for package data."""
         contents = importlib_resources.files(turbine_models.__name__)
         data = [file for file in contents.iterdir() if file.name == "data"][0]
-        paths = {folder.name.lower(): folder for folder in data.iterdir()}
+        paths = {folder.name.lower(): folder for folder in data.iterdir() if os.path.isdir(str(folder))}
+        return paths
+
+    @property
+    def spec_paths(self):
+        """Return posix path object for package specs."""
+        contents = importlib_resources.files(turbine_models.__name__)
+        data = [file for file in contents.iterdir() if file.name == "specs"][0]
+        paths = {folder.name.lower(): folder for folder in data.iterdir() if os.path.isdir(str(folder))}
         return paths
 
     def table(self, index, group="onshore"):
@@ -103,20 +111,73 @@ class Turbines:
 
         Parameters
         ----------
-        index : int
-            The integer associated with a a turbine model in the given group.
+        index : int or str
+            int: The integer associated with a a turbine model in the given group.
+            str: The turbine model name in the given group.
         group : str
             The turbine group associated with the desired turbine model.
 
         Returns
         -------
-        pd.frame.core.DataFrame : Data frame containing all available turbines
+        pd.DataFrame : Data frame containing all available turbines
                                   within a group.
         """
-        fpath = self._turbines(group)[index]["path"]
+        if isinstance(index,int):
+            fpath = self._turbines(group)[index]["path"]
+        elif isinstance(index,str):
+            indx_turb_dict = self.turbines(group=group)
+            turb_idx_dict = {v:k for k,v in indx_turb_dict.items()}
+            indx = turb_idx_dict[index]
+            fpath = self._turbines(group)[indx]["path"]
         df = pd.read_csv(fpath)
         df = self._rename_cols(df)
         return df
+
+    def specs(self, index, group="onshore"):
+        if isinstance(index,int):
+            fpath = self._turbines(group)[index]["spec_path"]
+        elif isinstance(index,str):
+            indx_turb_dict = self.turbines(group=group)
+            turb_idx_dict = {v:k for k,v in indx_turb_dict.items()}
+            index = turb_idx_dict[index]
+        if "spec_path" in self._turbines(group)[index]:
+            fpath = self._turbines(group)[index]["spec_path"]
+            with open(fpath) as fid:
+                spec_data = yaml.load(fid, yaml.SafeLoader)
+            power_table = self.table(index,group=group)
+            spec_data.update({"power_curve":power_table})
+        else:
+            spec_data = self.table(index,group=group)
+        return spec_data
+
+    def find_close_matching_names(self,name,name_options):
+        close_matches = []
+        best_matches = []
+
+        name_parts = name.split("_")
+        for part in name_parts:
+            option_has_part = [k for k in name_options if part.lower() in k.lower()]
+            close_match_unique_option = [k for k in option_has_part if k not in close_matches]
+            best_match = [k for k in option_has_part if k in close_matches]
+            best_match_unique_option = [k for k in best_match if k not in best_matches]
+
+            best_matches += best_match_unique_option
+            close_matches += close_match_unique_option
+
+        return best_matches,close_matches
+    
+    def find_group_for_turbine(self,turbine_name):
+        group_close_matches = {}
+        for group in self.groups:
+            turbines_in_group = self.turbines(group)
+            if any(k.lower()==turbine_name.lower() for k in list(turbines_in_group.values())):
+                return group
+            else:
+                best_matches, close_matches = self.find_close_matching_names(turbine_name,turbines_in_group)
+                group_close_matches.update({group:{"best_matches":best_matches,"close_matches":close_matches}})
+        if len(group_close_matches)>0:
+            return group_close_matches
+
 
     def turbines(self, group="onshore"):
         """Return dictionary of available turbines.
@@ -177,12 +238,17 @@ class Turbines:
         df = df[keepers]
         return df
 
-    def _turbines(self, group="Onshore"):
+    def _turbines(self, group="onshore",file_ext=".csv"):
         # Return dictionary containing turbine name and posix paths
         turbines = {}
+        spec_paths = [file for file in self.spec_paths[group].iterdir()]
+        spec_names = [file.name for file in self.spec_paths[group].iterdir()]
         for i, path in enumerate(self.paths[group].iterdir()):
-            name = os.path.splitext(path.name)[0]
-            turbines[i] = {}
-            turbines[i]["name"] = name
-            turbines[i]["path"] = path
+            if file_ext in path.name:
+                name = os.path.splitext(path.name)[0]
+                turbines[i] = {}
+                turbines[i]["name"] = name
+                turbines[i]["path"] = path
+                if any(name in k for k in spec_names):
+                    turbines[i]["spec_path"] = [k for k in spec_paths if name in k.name][0]
         return turbines
