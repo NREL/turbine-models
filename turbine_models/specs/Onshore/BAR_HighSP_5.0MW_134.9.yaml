@@ -1,0 +1,12 @@
+name: BAR_HighSP_5MW #N/A
+rated_power: 5000 #kW
+rated_wind_speed: 11.25 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 135 #m
+hub_height: 100 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class:  #N/A
+category: Onshore
+power_curve_file: Onshore/BAR_HighSP_5.0MW_134.9.csv

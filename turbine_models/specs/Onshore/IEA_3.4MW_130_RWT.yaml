@@ -1,0 +1,12 @@
+name: IEA_3.4MW_Reference #N/A
+rated_power: 3370 #kW
+rated_wind_speed: 9.8 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 130 #m
+hub_height: 110 #m
+drivetrain: Geared #N/A
+control: Pitch Regulated #N/A
+iec_class: IIIa #N/A
+category: Onshore
+power_curve_file: Onshore/IEA_3.4MW_130_RWT.csv

@@ -1,0 +1,12 @@
+name: BAR_BAU_LowSP_3.25MW #N/A
+rated_power: 3250 #kW
+rated_wind_speed: 8.5 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 166 #m
+hub_height: 116 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class:  #N/A
+category: Onshore
+power_curve_file: Onshore/BAR_BAU_LowSP_3.25MW_166.csv

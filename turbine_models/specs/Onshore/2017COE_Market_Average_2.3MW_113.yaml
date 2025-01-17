@@ -1,0 +1,12 @@
+name: 2017_COE_Market_Average #N/A
+rated_power: 2300 #kW
+rated_wind_speed:  #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 113 #m
+hub_height: 86 #m
+drivetrain: Geared #N/A
+control:  #N/A
+iec_class:  #N/A
+category: Onshore
+power_curve_file: Onshore/2017COE_Market_Average_2.3MW_113.csv

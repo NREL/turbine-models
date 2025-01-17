@@ -1,0 +1,12 @@
+name: DOE_GE_1.5_MW #N/A
+rated_power: 1500 #kW
+rated_wind_speed: 14.5 #m/s
+cut_in_wind_speed: 3.5 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 77 #m
+hub_height: 80 #m
+drivetrain: Geared #N/A
+control: Pitch Regulated #N/A
+iec_class: IIa #N/A
+category: Onshore
+power_curve_file: Onshore/DOE_GE_1.5MW_77.csv

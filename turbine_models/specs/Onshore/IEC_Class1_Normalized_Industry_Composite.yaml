@@ -1,0 +1,12 @@
+name: IEC_Class_I_Composite #N/A
+rated_power:  #kW
+rated_wind_speed:  #m/s
+cut_in_wind_speed:  #m/s
+cut_out_wind_speed:  #m/s
+rotor_diameter:  #m
+hub_height:  #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class: I #N/A
+category: Onshore
+power_curve_file: Onshore/IEC_Class1_Normalized_Industry_Composite.csv

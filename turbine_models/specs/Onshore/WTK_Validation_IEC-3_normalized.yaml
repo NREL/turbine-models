@@ -1,0 +1,12 @@
+name: WTK_Validation_IEC_III #N/A
+rated_power: 2000 #kW
+rated_wind_speed: 12 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 22 #m/s
+rotor_diameter:  #m
+hub_height: 100 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class: III #N/A
+category: Onshore
+power_curve_file: Onshore/WTK_Validation_IEC-3_normalized.csv

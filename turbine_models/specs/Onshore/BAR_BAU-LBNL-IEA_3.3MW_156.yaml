@@ -1,0 +1,12 @@
+name: BAR_LBNL-IEA_3.3_MW #N/A
+rated_power: 3300 #kW
+rated_wind_speed: 9 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 156 #m
+hub_height: 111 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class:  #N/A
+category: Onshore
+power_curve_file: Onshore/BAR_BAU-LBNL-IEA_3.3MW_156.csv
