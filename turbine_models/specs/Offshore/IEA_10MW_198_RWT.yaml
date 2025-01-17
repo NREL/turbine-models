@@ -1,0 +1,12 @@
+name: IEA_10_MW_RWT #N/A
+rated_power: 10000 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 198 #m
+hub_height: 119 #m
+drivetrain: Direct Drive #N/A
+control: Pitch Regulation #N/A
+iec_class: IA #N/A
+category: Offshore
+power_curve_file: Offshore/IEA_10MW_198_RWT.csv

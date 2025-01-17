@@ -1,0 +1,12 @@
+name: DTU_10_MW_RWT_(v1) #N/A
+rated_power: 10000 (see note) #kW
+rated_wind_speed: 11.4 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 178.3 #m
+hub_height: 119 #m
+drivetrain: Geared #N/A
+control: Pitch Regulated #N/A
+iec_class: IA #N/A
+category: Offshore
+power_curve_file: Offshore/DTU_10MW_178_RWT_v1.csv

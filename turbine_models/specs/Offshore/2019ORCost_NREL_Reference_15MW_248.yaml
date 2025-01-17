@@ -1,0 +1,12 @@
+name: OR_Cost_Reference_15_MW #N/A
+rated_power: 15000 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 248 #m
+hub_height: 149 #m
+drivetrain: Direct Drive #N/A
+control: Pitch Regulated #N/A
+iec_class:  #N/A
+category: Offshore
+power_curve_file: Offshore/2019ORCost_NREL_Reference_15MW_248.csv

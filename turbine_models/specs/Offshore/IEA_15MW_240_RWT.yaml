@@ -1,0 +1,12 @@
+name: IEA_15_MW_RWT #N/A
+rated_power: 15000 #kW
+rated_wind_speed: 10.6 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 240 #m
+hub_height: 150 #m
+drivetrain: Direct Drive #N/A
+control: Pitch Regulation #N/A
+iec_class: 1B #N/A
+category: Offshore
+power_curve_file: Offshore/IEA_15MW_240_RWT.csv

@@ -1,0 +1,12 @@
+name: 2020_ATB_Reference_12 #N/A
+rated_power: 12000 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 214 #m
+hub_height: 136 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class:  #N/A
+category: Offshore
+power_curve_file: Offshore/2020ATB_NREL_Reference_12MW_214.csv
