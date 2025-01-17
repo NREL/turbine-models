@@ -9,13 +9,18 @@ setup(
                  "turbine models in industry the R&D community."),
     author="Patrick Duffy & Travis Williams",
     author_email="patrick.duffy@nrel.gov",
-    install_requires=["numpy", "pandas","matplotlib"],
+    install_requires=["numpy", "pandas","matplotlib","dill","pyyaml-include <= 1.4.1"],
     include_package_data=True,
     pacakage_data={
         "data": [
             "Offshore/*csv",
             "Onshore/*csv",
             "Distributed/*csv"
+        ],
+        "specs": [
+            "Offshore/*yaml",
+            "Onshore/*yaml",
+            "Distributed/*yaml"
         ]
     }
 )
