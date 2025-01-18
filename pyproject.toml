@@ -1,0 +1,57 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "turbine_models"
+dynamic = ["version"]
+authors = [{name = "Patrick Duffy & Travis Williams", email = "patrick.duffy@nrel.gov"}]
+readme = {file = "README.md", content-type = "text/markdown"}
+description = "Retrieves power curves and key data for commonly used turbine models in industry and R&D community."
+requires-python = ">=3.10, <3.12"
+license = {file = "LICENSE"}
+dependencies = [
+    "numpy",
+    "pandas",
+    "dill",
+    "matplotlib",
+    "pyyaml-include <= 1.4.1",
+]
+keywords = [
+    "python3",
+    "turbine-library",
+]
+[project.urls]
+source = "https://github.com/NREL/turbine-models"
+documentation = "https://nrel.github.io/turbine-models/"
+issues = "https://github.com/NREL/turbine-models/issues"
+changelog = "https://github.com/NREL/turbine-models/blob/main/RELEASE.md"
+
+[project.optional-dependencies]
+develop = [
+    "pytest",
+    "pytest-subtests",
+    "pytest-dependency",
+    "responses",
+    "jupyter-book",
+    "sphinxcontrib-napoleon",
+]
+# examples = ["jupyterlab"]
+all = ["turbine_models[develop,examples]"]
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = [
+    "turbine_models",
+    "turbine_models/data/Offshore/*csv",
+    "turbine_models/data/Onshore/*csv",
+    "turbine_models/data/Distributed/*csv",
+    "turbine_models/specs/Offshore/*yaml",
+    "turbine_models/specs/Onshore/*yaml",
+    "turbine_models/specs/Distributed/*yaml",
+]
+
+[tool.setuptools.dynamic]
+version = {attr = "turbine_models.__version__"}
