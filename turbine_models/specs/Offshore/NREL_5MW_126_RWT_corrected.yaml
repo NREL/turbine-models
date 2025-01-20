@@ -1,12 +1,12 @@
 name:  NREL_5MW_126_RWT_corrected #N/A
-rated_power:  #kW
-rated_wind_speed:  #m/s
-cut_in_wind_speed:  #m/s
-cut_out_wind_speed:  #m/s
-rotor_diameter:  #m
-hub_height:  #m
-drivetrain:  #N/A
-control:  #N/A
+rated_power: 5000 #kW
+rated_wind_speed: 11.4 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 126 #m
+hub_height: 90 #m
+drivetrain: Geared #N/A
+control: Pitch Regulated #N/A
 iec_class:  #N/A
 category: Offshore
 power_curve_file: Offshore/NREL_5MW_126_RWT_corrected.csv

@@ -1,10 +1,10 @@
 name:  2019COE_Market_Average_2.6MW_121 #N/A
-rated_power: 2600 #kW
+rated_power: 2550 #kW
 rated_wind_speed:  #m/s
-cut_in_wind_speed:  #m/s
-cut_out_wind_speed:  #m/s
-rotor_diameter: 121 #m
-hub_height:  #m
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 121.2 #m
+hub_height: 90.1 #m
 drivetrain:  #N/A
 control:  #N/A
 iec_class:  #N/A
