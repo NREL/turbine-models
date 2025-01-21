@@ -1,0 +1,13 @@
+name:  NPS100B-24_95kW_23.6 #N/A
+rated_power: 95 #kW
+rated_wind_speed: 14.0 #m/s
+cut_in_wind_speed: 3.0 #m/s
+cut_out_wind_speed: 25.0 #m/s
+rotor_diameter: 23.6  #m
+hub_height: [30.0, 37.0] #m
+drivetrain: Direct-Drive #N/A
+control:  #N/A
+iec_class: WTGS-III/S #N/A
+category: Distributed
+power_curve_file: Distributed/NPS100B-24_95kW_23.6.csv
+# ref: https://stalflex.is/skjalasafn/60_100/NPS100-24-SpecSheet2012.pdf

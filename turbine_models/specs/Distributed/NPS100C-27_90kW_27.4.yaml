@@ -1,0 +1,13 @@
+name:  NPS100C-27_90kW_27.4 #N/A
+rated_power: 90 #kW
+rated_wind_speed: 10 #m/s
+cut_in_wind_speed: 2.5 #m/s
+cut_out_wind_speed: 20 #m/s
+rotor_diameter: 27.4 #m
+hub_height: [22.0, 29.0, 37.0] #m
+drivetrain: Direct-Drive #N/A
+control: Variable Speed #N/A
+iec_class:  #N/A
+category: Distributed
+power_curve_file: Distributed/NPS100C-27_90kW_27.4.csv
+# ref: https://northernpower.com/wp/wp-content/uploads/2024/04/brochure-NPS-100C-27_ed2020_light_ENG.pdf
