@@ -137,17 +137,24 @@ class Turbines:
         if isinstance(index,int):
             fpath = self._turbines(group)[index]["spec_path"]
         elif isinstance(index,str):
+            group = self.find_group_for_turbine(index)
             indx_turb_dict = self.turbines(group=group)
             turb_idx_dict = {v:k for k,v in indx_turb_dict.items()}
-            index = turb_idx_dict[index]
-        if "spec_path" in self._turbines(group)[index]:
-            fpath = self._turbines(group)[index]["spec_path"]
-            with open(fpath) as fid:
-                spec_data = yaml.load(fid, yaml.SafeLoader)
-            power_table = self.table(index,group=group)
-            spec_data.update({"power_curve":power_table})
+            if index in turb_idx_dict.keys():
+                index = turb_idx_dict[index]
+            else:
+                index = None
+        if index is not None:
+            if "spec_path" in self._turbines(group)[index]:
+                fpath = self._turbines(group)[index]["spec_path"]
+                with open(fpath) as fid:
+                    spec_data = yaml.load(fid, yaml.SafeLoader)
+                power_table = self.table(index,group=group)
+                spec_data.update({"power_curve":power_table})
+            else:
+                spec_data = self.table(index,group=group)
         else:
-            spec_data = self.table(index,group=group)
+            spec_data = None
         return spec_data
 
     def find_close_matching_names(self,name,name_options):
