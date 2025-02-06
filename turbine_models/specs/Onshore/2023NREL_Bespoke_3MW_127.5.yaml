@@ -1,4 +1,5 @@
 name:  2023NREL_Bespoke_3MW_127.5 #N/A
+nickname: #N/A
 rated_power: 3000 #kW
 rated_wind_speed:  #m/s
 cut_in_wind_speed:  #m/s
@@ -8,6 +9,11 @@ hub_height:  #m
 drivetrain:  #N/A
 control:  #N/A
 iec_class:  #N/A
-category: Onshore
+group: Onshore
 power_curve_file: Onshore/2023NREL_Bespoke_3MW_127.5.csv
 turbine_class: 
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

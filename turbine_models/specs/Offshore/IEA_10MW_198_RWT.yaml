@@ -1,4 +1,5 @@
 name: IEA_10_MW_RWT #N/A
+nickname: #N/A
 rated_power: 10000 #kW
 rated_wind_speed: 11 #m/s
 cut_in_wind_speed: 4 #m/s
@@ -8,5 +9,10 @@ hub_height: 119 #m
 drivetrain: Direct Drive #N/A
 control: Pitch Regulation #N/A
 iec_class: IA #N/A
-category: Offshore
+group: Offshore
 power_curve_file: Offshore/IEA_10MW_198_RWT.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

@@ -1,4 +1,5 @@
 name: 2020_ATB_NREL_Reference_5.5_MW #N/A
+nickname: #N/A
 rated_power: 5500 #kW
 rated_wind_speed: 10 #m/s
 cut_in_wind_speed: 3.25 #m/s
@@ -8,5 +9,10 @@ hub_height: 120 #m
 drivetrain:  #N/A
 control:  #N/A
 iec_class:  #N/A
-category: Onshore
+group: Onshore
 power_curve_file: Onshore/2020ATB_NREL_Reference_5.5MW_175.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

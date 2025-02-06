@@ -1,4 +1,5 @@
 name: BAR_LBNL-IEA_3.3_MW #N/A
+nickname: #N/A
 rated_power: 3300 #kW
 rated_wind_speed: 9 #m/s
 cut_in_wind_speed: 4 #m/s
@@ -8,5 +9,10 @@ hub_height: 111 #m
 drivetrain:  #N/A
 control:  #N/A
 iec_class:  #N/A
-category: Onshore
+group: Onshore
 power_curve_file: Onshore/BAR_BAU-LBNL-IEA_3.3MW_156.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

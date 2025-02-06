@@ -1,4 +1,5 @@
 name: 2019_COE_DW_100 #N/A
+nickname: #N/A
 rated_power: 100 #kW
 rated_wind_speed: 11 #m/s
 cut_in_wind_speed: 3 #m/s
@@ -8,5 +9,10 @@ hub_height: 40 #m
 drivetrain:  #N/A
 control:  #N/A
 iec_class:  #N/A
-category: Distributed
+group: Distributed
 power_curve_file: Distributed/2019COE_DW100_100kW_27.6.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

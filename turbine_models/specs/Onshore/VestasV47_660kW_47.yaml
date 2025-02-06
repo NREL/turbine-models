@@ -1,4 +1,5 @@
 name: Vestas_V47 #N/A
+nickname: #N/A
 rated_power: 660 #kW
 rated_wind_speed: 15 #m/s
 cut_in_wind_speed: 4 #m/s
@@ -8,5 +9,10 @@ hub_height: [45, 50, 55, 60, 65] #Varies approx 45-65m #m
 drivetrain: Geared #N/A
 control: Pitch Regulated #N/A
 iec_class:  #N/A
-category: Onshore
+group: Onshore
 power_curve_file: Onshore/VestasV47_660kW_47.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

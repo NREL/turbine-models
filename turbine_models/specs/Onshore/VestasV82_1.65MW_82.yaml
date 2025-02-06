@@ -1,4 +1,5 @@
 name: Vestas_V82 #N/A
+nickname: #N/A
 rated_power: 1650 #kW
 rated_wind_speed: 13 #m/s
 cut_in_wind_speed: 3.5 #m/s
@@ -8,5 +9,10 @@ hub_height: [59, 68.5, 70, 78, 80] #Varies approx 59-80m #m
 drivetrain: Geared #N/A
 control: Active Stall #N/A
 iec_class: IIb #N/A
-category: Onshore
+group: Onshore
 power_curve_file: Onshore/VestasV82_1.65MW_82.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

@@ -1,4 +1,5 @@
 name: DOE_GE_1.5_MW #N/A
+nickname: #N/A
 rated_power: 1500 #kW
 rated_wind_speed: 14.5 #m/s
 cut_in_wind_speed: 3.5 #m/s
@@ -8,5 +9,10 @@ hub_height: 80 #m
 drivetrain: Geared #N/A
 control: Pitch Regulated #N/A
 iec_class: IIa #N/A
-category: Onshore
+group: Onshore
 power_curve_file: Onshore/DOE_GE_1.5MW_77.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

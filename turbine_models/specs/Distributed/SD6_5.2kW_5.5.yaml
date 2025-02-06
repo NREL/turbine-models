@@ -1,4 +1,5 @@
 name: SD6 #N/A
+nickname: #N/A
 rated_power: 5.2 #kW
 rated_wind_speed: 11 #m/s
 cut_in_wind_speed:  #m/s
@@ -8,10 +9,15 @@ hub_height: 9 #m
 drivetrain:  #N/A
 control:  #N/A
 iec_class: SWT II #N/A
-category: Distributed
+group: Distributed
 power_curve_file: Distributed/SD6_5.2kW_5.5.csv
 
 #https://smallwindcertification.org/wp-content/uploads/2021/04/SWCC-11-04-Summary-Report-2020.pdf
 # additional:
 #   rotor_tilt: 5 #degrees
 #   rated_rotor_speed: 65 #rpm
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A
