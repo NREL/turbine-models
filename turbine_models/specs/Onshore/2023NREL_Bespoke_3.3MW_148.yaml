@@ -1,0 +1,19 @@
+name:  2023NREL_Bespoke_3.3MW_148 #N/A
+nickname: #N/A
+rated_power: 3300 #kW
+rated_wind_speed:  #m/s
+cut_in_wind_speed:  #m/s
+cut_out_wind_speed:  #m/s
+rotor_diameter: 148 #m
+hub_height: 100 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class:  #N/A
+group: Onshore
+power_curve_file: Onshore/2023NREL_Bespoke_3.3MW_148.csv
+turbine_class: T3
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

@@ -1,0 +1,18 @@
+name: V27 #N/A
+nickname: #N/A
+rated_power: 225 #kW
+rated_wind_speed: 15.5 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 27 #m
+hub_height: 31.5 #m
+drivetrain: Geared #N/A
+control: Pitch Regulated #N/A
+iec_class:  #N/A
+group: Distributed
+power_curve_file: Distributed/VestasV27_225kW_27.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

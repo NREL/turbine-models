@@ -1,0 +1,23 @@
+name: Bestwind_30 #N/A
+nickname: #N/A
+rated_power: 27.2 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 3.5 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 13.1 #m
+hub_height: 26.5 #m
+drivetrain: Direct Drive #N/A
+control: Stall Regulated #N/A
+iec_class: SWT II #N/A
+group: Distributed
+power_curve_file: Distributed/Bestwind30_27.2kW_13.1.csv
+
+#https://smallwindcertification.org/wp-content/uploads/2019/09/Summary-Report-16-02-2019.pdf
+additional:
+  rotor_tilt: 5 #degrees
+  rated_rotor_speed: 65 #rpm
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

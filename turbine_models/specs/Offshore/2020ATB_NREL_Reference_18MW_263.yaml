@@ -1,0 +1,18 @@
+name: 2020_ATB_Reference_20 #N/A
+nickname: #N/A
+rated_power: 18000 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 4 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 263 #m
+hub_height: 156 #m
+drivetrain: Direct Drive #N/A
+control: Pitch Regulation #N/A
+iec_class:  #N/A
+group: Offshore
+power_curve_file: Offshore/2020ATB_NREL_Reference_18MW_263.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

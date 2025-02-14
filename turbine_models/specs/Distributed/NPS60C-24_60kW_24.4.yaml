@@ -1,0 +1,18 @@
+name: NPS_60C-24 #N/A
+nickname: #N/A
+rated_power: 60 #kW
+rated_wind_speed: 11 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 24.4 #m
+hub_height: [30, 37] #30 and 37 #m
+drivetrain:  #N/A
+control: Stall Regulated #N/A
+iec_class: III-A #N/A
+group: Distributed
+power_curve_file: Distributed/NPS60C-24_60kW_24.4.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

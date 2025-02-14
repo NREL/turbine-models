@@ -1,0 +1,18 @@
+name: IEC_Class_I_Composite #N/A
+nickname: #N/A
+rated_power:  #kW
+rated_wind_speed:  #m/s
+cut_in_wind_speed:  #m/s
+cut_out_wind_speed:  #m/s
+rotor_diameter:  #m
+hub_height:  #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class: I #N/A
+group: Onshore
+power_curve_file: Onshore/IEC_Class1_Normalized_Industry_Composite.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

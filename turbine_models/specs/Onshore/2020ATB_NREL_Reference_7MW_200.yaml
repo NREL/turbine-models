@@ -1,0 +1,18 @@
+name: 2020_ATB_NREL_Reference_7_MW #N/A
+nickname: #N/A
+rated_power: 7000 #kW
+rated_wind_speed: 9.75 #m/s
+cut_in_wind_speed: 3.25 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter: 200 #m
+hub_height: 175 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class:  #N/A
+group: Onshore
+power_curve_file: Onshore/2020ATB_NREL_Reference_7MW_200.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A

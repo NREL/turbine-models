@@ -1,0 +1,18 @@
+name: WTK_Validation_IEC_I #N/A
+nickname: #N/A
+rated_power: 2000 #kW
+rated_wind_speed: 17 #m/s
+cut_in_wind_speed: 3 #m/s
+cut_out_wind_speed: 25 #m/s
+rotor_diameter:  #m
+hub_height: 100 #m
+drivetrain:  #N/A
+control:  #N/A
+iec_class: I #N/A
+group: Onshore
+power_curve_file: Onshore/WTK_Validation_IEC-1_normalized.csv
+manufacturer: #N/A
+classification: #options are 'commercially available', 'reference model', or 'legacy product'
+power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
+rated_tsr: #tip-speed ratio
+reference_links: [] #N/A
