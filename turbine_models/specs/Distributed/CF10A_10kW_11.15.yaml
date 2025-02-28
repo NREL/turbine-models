@@ -1,4 +1,4 @@
-name: CF10_(Phase_A) #N/A
+name: CF10A_10kW_11.15 #N/A
 nickname: #N/A
 rated_power: 10 #kW
 rated_wind_speed: 9 #m/s
@@ -10,7 +10,7 @@ drivetrain: Variable Speed #N/A
 control: Pitch Regulated #N/A
 iec_class:  #N/A
 group: Distributed
-power_curve_file: Distributed/CF10(PhaseA)_10kW_11.15.csv
+power_curve_file: Distributed/CF10A_10kW_11.15.csv
 manufacturer: #N/A
 classification: #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
