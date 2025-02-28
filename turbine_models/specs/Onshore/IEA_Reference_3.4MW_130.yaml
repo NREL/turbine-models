@@ -1,4 +1,4 @@
-name: IEA_3.4MW_Reference #N/A
+name: IEA_Reference_3.4MW_130 #N/A
 nickname: #N/A
 rated_power: 3370 #kW
 rated_wind_speed: 9.8 #m/s
@@ -10,9 +10,9 @@ drivetrain: Geared #N/A
 control: Pitch Regulated #N/A
 iec_class: IIIa #N/A
 group: Onshore
-power_curve_file: Onshore/IEA_3.4MW_130_RWT.csv
+power_curve_file: Onshore/IEA_Reference_3.4MW_130.csv
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+classification: 'reference model' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A
