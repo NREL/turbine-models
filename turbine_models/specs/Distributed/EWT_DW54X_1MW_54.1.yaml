@@ -11,9 +11,9 @@ control:  #N/A
 iec_class: I-A #N/A
 group: Distributed
 power_curve_file: Distributed/EWT_DW54X_1MW_54.1.csv
-# ref: https://ewtdirectwind.com/products/dw54x/
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+classification: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
-reference_links: [] #N/A
+reference_links: 
+  - "https://ewtdirectwind.com/products/dw54x/"

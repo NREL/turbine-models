@@ -15,4 +15,5 @@ manufacturer: #N/A
 classification: #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
-reference_links: [] #N/A
+reference_links: 
+  - "https://www.solar-electric.com/lib/wind-sun/Pika_T701_Turbine_Datasheet.pdf?srsltid=AfmBOorPnV2P5Sz27RrAu2B_PqvL6kRDgYZNo9Vm5S34E11cB5TWJns4"

@@ -11,11 +11,9 @@ control: pitch-controlled #N/A
 iec_class: III-A #N/A
 group: Distributed
 power_curve_file: Distributed/EWT_DW54_900kW_54.csv
-
-# notes:
-# - https://ewtdirectwind.com/wp-content/uploads/2018/04/EWT_Flyer-dw54-900kW.pdf
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+classification: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
-reference_links: [] #N/A
+reference_links: 
+  - "https://ewtdirectwind.com/wp-content/uploads/2018/04/EWT_Flyer-dw54-900kW.pdf"
