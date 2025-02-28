@@ -1,6 +1,6 @@
 # Release Notes
 
-## Version 1.0.0, Feb 6, 2025
+## Version 0.1.0, Feb 6, 2025
 * added data files for turbines with complete documentation
 * merged tw/package in master branch and updated install to pyproject.toml format
 * added extra functionality to parser() for loading data files
