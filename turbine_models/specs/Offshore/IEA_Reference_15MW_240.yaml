@@ -1,4 +1,4 @@
-name: IEA_15_MW_RWT #N/A
+name: IEA_Reference_15MW_240 #N/A
 nickname: #N/A
 rated_power: 15000 #kW
 rated_wind_speed: 10.6 #m/s
@@ -10,9 +10,9 @@ drivetrain: Direct Drive #N/A
 control: Pitch Regulation #N/A
 iec_class: 1B #N/A
 group: Offshore
-power_curve_file: Offshore/IEA_15MW_240_RWT.csv
+power_curve_file: Offshore/IEA_Reference_15MW_240.csv
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+classification: 'reference model' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A
