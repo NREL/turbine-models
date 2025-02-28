@@ -1,4 +1,4 @@
-name:  EWT_DW54-X-1000 #N/A
+name: EWT_DW54X_1MW_54.1 #N/A
 nickname: #N/A
 rated_power: 1000 #kW note: also available at 500 kW
 rated_wind_speed:  #m/s
@@ -10,7 +10,7 @@ drivetrain:  #N/A
 control:  #N/A
 iec_class: I-A #N/A
 group: Distributed
-power_curve_file: Distributed/EWT_DW54-X-1000.csv
+power_curve_file: Distributed/EWT_DW54X_1MW_54.1.csv
 # ref: https://ewtdirectwind.com/products/dw54x/
 manufacturer: #N/A
 classification: #options are 'commercially available', 'reference model', or 'legacy product'
