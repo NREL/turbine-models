@@ -18,6 +18,7 @@ import numpy as np
 import pandas as pd
 import turbine_models
 import yaml
+from turbine_models.turbine_spell_checker_tools import get_best_match_turbine_in_library
 
 class Turbines:
     """Access power curves from NREL's turbine-models repository."""
@@ -157,74 +158,21 @@ class Turbines:
             spec_data = None
         return spec_data
 
-    def find_close_matching_names(self,name,name_options):
-        n_matches = {}
-        name_parts = name.split("_")
-        for part in name_parts:
-            option_has_part = [k for k in name_options if part.lower() in k.lower()]
-            new_matches = {opt:1 for opt in option_has_part if opt not in list(n_matches.keys())}
-            more_matches = {k:v+1 for k,v in n_matches.items() if k in option_has_part}
-            n_matches.update(new_matches)
-            n_matches.update(more_matches)
-        return n_matches
-    
-    def filter_matches(self,group_close_matches):
-        top_matches = {}
-        for possible_group in group_close_matches.keys():
-            n_part_match_per_turb = [int(v) for v in group_close_matches[possible_group].values()]
-            if max(n_part_match_per_turb)>1:
-                vals,cnts = np.unique(n_part_match_per_turb,return_counts = True)
-                max_similarity_turbs = [turb for turb,n in group_close_matches[possible_group].items() if n==int(vals[-1])]
-                top_matches.update({possible_group:max_similarity_turbs})
-        return top_matches
-
-            
-
-
-    def find_group_for_turbine(self,turbine_name,verbose = True):
+    def find_group_for_turbine(self,turbine_name):
         
-        group_of_turb = None
         for group in self.groups:
             turbines_in_group = self.turbines(group)
             if any(k.lower()==turbine_name.lower() for k in list(turbines_in_group.values())):
                 group_of_turb = group
-                break
-
-        if group_of_turb is None:
-            group_close_matches = {}
-            for group in self.groups:
-                turbines_in_group = self.turbines(group)
-                matches = self.find_close_matching_names(turbine_name,list(turbines_in_group.values()))
-                
-                if len(matches)>0:
-                    group_close_matches.update({group:matches})
-            if len(group_close_matches)>0:
-                # print("Could not find exact turbine name, returning dictionary of possible matches")
-                top_matches = self.filter_matches(group_close_matches)
-                if len(top_matches)>0:
-                    if verbose:
-                        # warn = f"Could not find exact match for `{turbine_name}`. Did you mean: \n"
-                        
-                        print(f"Could not find exact match for `{turbine_name}`. Did you mean: \n")
-                        for top_group in top_matches.keys():
-                            print(f"\t {top_group} turbines:")
-                            turbs = top_matches[top_group]
-                            print_turbs = "\t \t - "
-                            print_turbs += "\n \t \t - ".join(turbs)
-                            print(print_turbs)
-                            # warn += f"\t {top_group} turbines:"
-                            # warn += print_turbs
-                        
-                    return top_matches
-                else:
-                    return group_close_matches
-            else:
-                raise ValueError(
-                    f"Cannot find turbine in library that closely matches {turbine_name} \n"
-                    "to see a list of turbines in a group, for example try: `Turbines.turbines(group='onshore')`"
-                )
-        else:
-            return group_of_turb
+                return group_of_turb
+        
+        # check if valid name exists
+        turbine_name = get_best_match_turbine_in_library(turbine_name, self)
+        for group in self.groups:
+            turbines_in_group = self.turbines(group)
+            if any(k.lower()==turbine_name.lower() for k in list(turbines_in_group.values())):
+                group_of_turb = group
+                return group_of_turb
 
 
     def turbines(self, group="onshore"):
