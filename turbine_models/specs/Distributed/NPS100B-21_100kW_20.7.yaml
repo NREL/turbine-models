@@ -13,7 +13,7 @@ group: Distributed
 power_curve_file: Distributed/NPS100B-21_100kW_20.7.csv
 # ref: https://windup.pt/resources/20140124%20EU%20NPS100-21%20SpecSheet%20FINAL.pdf
 manufacturer: #N/A
-classification: 'legacy product' #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'legacy product' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

@@ -13,7 +13,7 @@ group: Onshore
 power_curve_file: Onshore/2023NREL_Bespoke_6MW_196.csv
 turbine_class: T4
 manufacturer: #N/A
-classification: 'reference model' #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'reference model' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

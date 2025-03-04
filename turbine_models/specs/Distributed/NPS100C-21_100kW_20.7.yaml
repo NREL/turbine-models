@@ -13,7 +13,7 @@ group: Distributed
 power_curve_file: Distributed/NPS100C-21_100kW_20.7.csv
 #https://www.pytech-demo.it/nps100/wp-content/uploads/2022/10/brochure-NPS-100C-21_ed2020_light_ENG-1.pdf
 manufacturer: #N/A
-classification: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

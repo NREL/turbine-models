@@ -12,7 +12,7 @@ iec_class: II-A #N/A
 group: Distributed
 power_curve_file: Distributed/GhrepowerFD21-50_61.2kW_21.5.csv
 manufacturer: #N/A
-classification: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A
