@@ -5,14 +5,15 @@ rated_wind_speed: 11 #m/s
 cut_in_wind_speed: 2.5 #m/s
 cut_out_wind_speed:  #m/s
 rotor_diameter: 9.6 #m
-hub_height: [18, 24] #Varies #m https://bergey.com/wp-content/uploads/Excel-15-Tower-Requirements-11-2018.pdf
+hub_height: [18, 24] #Varies #m 
 drivetrain: Direct Drive #N/A
 control: Stall Regulated #N/A
 iec_class:  #N/A
 group: Distributed
 power_curve_file: Distributed/BergeyExcel15_15.6kW_9.6.csv
-manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+manufacturer: Bergey #N/A
+origin: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
-reference_links: [] #N/A
+reference_links: 
+  - "https://bergey.com/wp-content/uploads/Excel-15-Tower-Requirements-11-2018.pdf"

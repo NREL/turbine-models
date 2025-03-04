@@ -1,4 +1,4 @@
-name: Leanwind_8_MW_RWT #N/A
+name: LEANWIND_Reference_8MW_164 #N/A
 nickname: #N/A
 rated_power: 8000 #kW
 rated_wind_speed: 12.5 #m/s
@@ -10,9 +10,9 @@ drivetrain:  #N/A
 regulation:  #N/A
 iec_class:  #N/A
 group: Offshore
-power_curve_file: Offshore/LEANWIND_8MW_164_RWT.csv
+power_curve_file: Offshore/LEANWIND_Reference_8MW_164.csv
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'reference model' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

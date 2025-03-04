@@ -12,9 +12,8 @@ iec_class:  #N/A
 group: Onshore
 power_curve_file: Onshore/2023NREL_Bespoke_6MW_170.csv
 turbine_class: T1
-#TODO: update power curve to include Ct from data Owen shared!
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'reference model' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

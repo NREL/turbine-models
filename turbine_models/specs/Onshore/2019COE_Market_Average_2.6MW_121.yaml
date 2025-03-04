@@ -12,7 +12,7 @@ iec_class:  #N/A
 group: Onshore
 power_curve_file: Onshore/2019COE_Market_Average_2.6MW_121.csv
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'reference model' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

@@ -13,7 +13,7 @@ group: Distributed
 power_curve_file: Distributed/NPS100B-24_95kW_23.6.csv
 # ref: https://stalflex.is/skjalasafn/60_100/NPS100-24-SpecSheet2012.pdf
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'legacy product' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

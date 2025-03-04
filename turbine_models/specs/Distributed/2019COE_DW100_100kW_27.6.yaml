@@ -12,7 +12,7 @@ iec_class:  #N/A
 group: Distributed
 power_curve_file: Distributed/2019COE_DW100_100kW_27.6.csv
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'reference model' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

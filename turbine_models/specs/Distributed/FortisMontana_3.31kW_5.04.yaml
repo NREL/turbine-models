@@ -12,7 +12,7 @@ iec_class: SWT II #N/A
 group: Distributed
 power_curve_file: Distributed/FortisMontana_3.31kW_5.04.csv
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'legacy product' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

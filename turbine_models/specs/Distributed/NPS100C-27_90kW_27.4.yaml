@@ -13,7 +13,7 @@ group: Distributed
 power_curve_file: Distributed/NPS100C-27_90kW_27.4.csv
 # ref: https://northernpower.com/wp/wp-content/uploads/2024/04/brochure-NPS-100C-27_ed2020_light_ENG.pdf
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

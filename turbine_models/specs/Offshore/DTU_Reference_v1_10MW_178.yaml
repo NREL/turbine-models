@@ -1,6 +1,6 @@
-name: DTU_10_MW_RWT_(v1) #N/A
+name: DTU_Reference_v1_10MW_178 #N/A
 nickname: #N/A
-rated_power: 10000 (see note) #kW
+rated_power: 10000 #kW
 rated_wind_speed: 11.4 #m/s
 cut_in_wind_speed: 4 #m/s
 cut_out_wind_speed: 25 #m/s
@@ -10,9 +10,9 @@ drivetrain: Geared #N/A
 control: Pitch Regulated #N/A
 iec_class: IA #N/A
 group: Offshore
-power_curve_file: Offshore/DTU_10MW_178_RWT_v1.csv
+power_curve_file: Offshore/DTU_Reference_v1_10MW_178.csv
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'reference model' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A

@@ -13,7 +13,7 @@ group: Distributed
 power_curve_file: Distributed/NPS100C-24_95kW_24.4.csv
 #https://www.nps100.com/wp/nps-100c/
 manufacturer: #N/A
-classification: #options are 'commercially available', 'reference model', or 'legacy product'
+origin: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
 rated_tsr: #tip-speed ratio
 reference_links: [] #N/A
