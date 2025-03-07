@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Usage question
+    url: https://github.com/NREL/hopp/discussions
+    about: Have any questions about using HOPP? Post in Discussions to engage with the NREL team and HOPP community.
