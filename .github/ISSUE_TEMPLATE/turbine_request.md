@@ -1,22 +1,22 @@
 ---
 name: Turbine inclusion request
-title: 'Turbine request: OEM POWER_UNITS ROTOR_DIAMETER_M'
+title: "Turbine request: OEM POWER_UNITS ROTOR_DIAMETER_M"
 description: Request a new turbine to be included in the turbine-models library.
-labels: 'Type: Enhancement'
+labels: Enhancement
 
 body:
 - type: markdown
   attributes:
-   value: |
+    value: |
       Request a new turbine or update to an existing turbine.
 
 - type: input
   attributes:
-    label: Turbine to be included
-    description: |
-      Provide the turbine OEM, model name, power rating with units (kW or MW
-      only), and rotor diamer with units (meters only), and a link to the data
-      source.
+     label: Turbine to be included
+     description: |
+       Provide the turbine OEM, model name, power rating with units (kW or MW
+       only), and rotor diamer with units (meters only), and a link to the data
+       source.
 
       Please also **update the issue title** as well.
     value: |
