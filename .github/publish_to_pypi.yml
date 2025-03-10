@@ -10,7 +10,7 @@ jobs:
     if: github.event.action == 'published'
     environment:
       name: pypi-publishing
-      url: https://pypi.org/p/HOPP
+      url: https://pypi.org/p/turbine-models
     permissions:
       id-token: write
     steps:
