@@ -12,11 +12,11 @@ body:
 
 - type: input
   attributes:
-     label: Turbine to be included
-     description: |
-       Provide the turbine OEM, model name, power rating with units (kW or MW
-       only), and rotor diamer with units (meters only), and a link to the data
-       source.
+    label: Turbine to be included
+    description: |
+      Provide the turbine OEM, model name, power rating with units (kW or MW
+      only), and rotor diamer with units (meters only), and a link to the data
+      source.
 
       Please also **update the issue title** as well.
     value: |
