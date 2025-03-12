@@ -1,0 +1,42 @@
+---
+name: Turbine inclusion request
+title: "Turbine request: OEM POWER_UNITS ROTOR_DIAMETER_M"
+description: Request a new turbine to be included in the turbine-models library.
+labels: Enhancement
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Request a new turbine or update to an existing turbine.
+
+- type: input
+  attributes:
+    label: Turbine to be included
+    description: |
+      Provide the turbine manufacturer (OEM), model name, power rating with units
+      (kW or MW only), and rotor diamer with units (meters only), and a link to
+      the data source.
+
+      Please also **update the issue title** as well.
+    value: |
+      `OEM_MODEL_POWER_ROTOR_DIAMETER`: https://github.com/NREL/turbine-models
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Contextual information
+    description: |
+      1-2 sentences about the importance of including this turbine in the repository.
+  validations:
+    required: true
+
+- type: textarea
+  attributes:
+    label: Additional information
+    description: |
+      Any other information relevant to this request.
+  validations:
+    required: true
+...

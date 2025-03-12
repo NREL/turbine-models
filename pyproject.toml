@@ -3,9 +3,17 @@ requires = ["setuptools", "setuptools-scm"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "turbine_models"
+name = "turbine-models"
 dynamic = ["version"]
-authors = [{name = "Patrick Duffy & Travis Williams", email = "patrick.duffy@nrel.gov"}]
+authors = [
+    {name = "Patrick Duffy", email = "patrick.duffy@nrel.gov"},
+    {name = "Travis Williams"},
+]
+maintainers = [
+    {name = "Patrick Duffy", email = "patrick.duffy@nrel.gov"},
+    {name = "Elenya Grant", email = "elenya.grant@nrel.gov"},
+    {name = "Rob Hammond", email = "rob.hammond@nrel.gov"},
+]
 readme = {file = "README.md", content-type = "text/markdown"}
 description = "Retrieves power curves and key data for commonly used turbine models in industry and R&D community."
 requires-python = ">=3.10, <3.12"
@@ -20,7 +28,30 @@ dependencies = [
 keywords = [
     "python3",
     "turbine-library",
+    "wind-turbines",
+    "power-curve",
+    "power-curves",
+    "data",
+    "wind-energy",
 ]
+
+# https://pypi.org/classifiers/
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: BSD License",
+    "Natural Language :: English",
+    "Operating System :: MacOS",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: Unix",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+]
+
 [project.urls]
 source = "https://github.com/NREL/turbine-models"
 documentation = "https://nrel.github.io/turbine-models/"
@@ -36,8 +67,6 @@ develop = [
     "jupyter-book",
     "sphinxcontrib-napoleon",
 ]
-# examples = ["jupyterlab"]
-all = ["turbine_models[develop,examples]"]
 
 [tool.setuptools]
 include-package-data = true
