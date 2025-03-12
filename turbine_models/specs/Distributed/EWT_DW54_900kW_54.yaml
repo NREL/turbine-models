@@ -5,7 +5,7 @@ rated_wind_speed: 13.5 #m/s
 cut_in_wind_speed: 2.5 #m/s
 cut_out_wind_speed: 25 #m/s
 rotor_diameter: 54 #m
-hub_height: 40 #m (can be 40,50 or 75m)
+hub_height: [40.0, 50.0, 75.0] #m (can be 40,50 or 75m)
 drivetrain: synchronous multi-pole #N/A
 control: pitch-controlled #N/A
 iec_class: III-A #N/A
