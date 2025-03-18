@@ -2,16 +2,16 @@ name: NPS_100C-24 #N/A
 nickname: #N/A
 rated_power: 95 #kW
 rated_wind_speed: 12 #m/s
-cut_in_wind_speed: 3.5 #m/s
+cut_in_wind_speed: 3 #m/s
 cut_out_wind_speed: 25 #m/s
 rotor_diameter: 24.4 #m
-hub_height: [30, 37] #m
+hub_height: [22, 29, 37] #m
 drivetrain: Direct Drive #N/A
 control: Stall Regulated #N/A
 iec_class: III-A #N/A
 group: Distributed
 power_curve_file: Distributed/NPS100C-24_95kW_24.4.csv
-#https://www.nps100.com/wp/nps-100c/
+#https://northernpower.com/wp/wp-content/uploads/2024/04/brochure-NPS-100C-24_ed2020_light_ENG.pdf
 manufacturer: #N/A
 origin: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'
