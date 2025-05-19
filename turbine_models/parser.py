@@ -7,17 +7,14 @@ Created on Wed Apr 21 14:12:17 2021
 """
 import os
 import sys
+import importlib.resources as importlib_resources
 
-if sys.version_info < (3, 9):
-    import importlib_resources
-else:
-    import importlib.resources as importlib_resources
-
-import matplotlib.pyplot as plt
+import yaml
 import numpy as np
 import pandas as pd
+import matplotlib.pyplot as plt
+
 import turbine_models
-import yaml
 from turbine_models.turbine_spell_checker_tools import get_best_match_turbine_in_library
 
 class Turbines:
