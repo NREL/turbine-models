@@ -16,14 +16,14 @@ maintainers = [
 ]
 readme = {file = "README.md", content-type = "text/markdown"}
 description = "Retrieves power curves and key data for commonly used turbine models in industry and R&D community."
-requires-python = ">=3.10, <3.12"
+requires-python = ">=3.10, <3.14"
 license = {file = "LICENSE"}
 dependencies = [
     "numpy",
     "pandas",
-    "dill",
     "matplotlib",
-    "pyyaml-include <= 1.4.1",
+    "pyyaml",
+    "pyyaml-include",
 ]
 keywords = [
     "python3",
@@ -46,6 +46,10 @@ classifiers = [
     "Operating System :: Unix",
     "Programming Language :: Python",
     "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
     "Topic :: Scientific/Engineering",
     "Topic :: Software Development :: Libraries",
     "Topic :: Software Development :: Libraries :: Python Modules",

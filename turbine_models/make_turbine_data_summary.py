@@ -1,8 +1,10 @@
-from turbine_models.parser import Turbines
-import pandas as pd
-import turbine_models
 import os
+
 import yaml
+import pandas as pd
+
+import turbine_models
+from turbine_models.parser import Turbines
 
 def write_yaml(filename,data):
     if not '.yaml' in filename:
