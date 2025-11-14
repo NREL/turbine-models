@@ -128,7 +128,7 @@ class Turbines:
         if isinstance(index,int):
             fpath = self._turbines(group)[index]["path"]
         elif isinstance(index,str):
-            if index in self.supported_turbines(): #nickname provided
+            if index in self.supported_turbines: #nickname provided
                 index = self.supported_turbines[index]
 
             indx_turb_dict = self.turbines(group=group)
@@ -143,7 +143,7 @@ class Turbines:
         if isinstance(index,int):
             fpath = self._turbines(group)[index]["spec_path"]
         if isinstance(index,str):
-            if index in self.supported_turbines(): #nickname provided
+            if index in self.supported_turbines: #nickname provided
                 index = self.supported_turbines[index]
 
             group = self.find_group_for_turbine(index)
