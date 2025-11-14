@@ -5,13 +5,13 @@ rated_wind_speed: 15 #m/s
 cut_in_wind_speed: 3 #m/s
 cut_out_wind_speed: 25 #m/s
 rotor_diameter: 20.7 #m
-hub_height: [22,29,37]  #m
+hub_height: [19,22,37]  #m
 drivetrain: Direct #N/A
 control:  #N/A
-iec_class: II-A #N/A
+iec_class: II-A and II-S #N/A
 group: Distributed
 power_curve_file: Distributed/NPS100C-21_100kW_20.7.csv
-#https://www.pytech-demo.it/nps100/wp-content/uploads/2022/10/brochure-NPS-100C-21_ed2020_light_ENG-1.pdf
+#https://northernpower.com/wp/wp-content/uploads/2024/04/brochure-NPS-100C-21_ed2020_light_ENG.pdf 
 manufacturer: #N/A
 origin: 'commercially available' #options are 'commercially available', 'reference model', or 'legacy product'
 power_curve_type: 'theoretical' #options are 'experimental' or 'theoretical'

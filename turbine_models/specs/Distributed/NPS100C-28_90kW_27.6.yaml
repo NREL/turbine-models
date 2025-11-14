@@ -1,11 +1,11 @@
 name:  NPS100C-28_90kW_27.6 #N/A
 nickname: #N/A
 rated_power: 90 #kW
-rated_wind_speed: 12 #m/s
+rated_wind_speed: 11 #m/s
 cut_in_wind_speed: 2.5 #m/s
-cut_out_wind_speed: 20 #m/s
+cut_out_wind_speed: 17 #m/s
 rotor_diameter: 27.6 #m
-hub_height: [30.0, 37.0] #m
+hub_height: [22, 29, 37, 40] #m
 drivetrain: Direct-drive #N/A
 control:  #N/A
 iec_class:  #N/A
