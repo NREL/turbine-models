@@ -40,18 +40,11 @@ def get_pysam_turbine_specs(turbine_name):
         "wind_turbine_ct_curve": power_curve.get("ct_curve"),
         "wind_turbine_powercurve_windspeeds": power_curve.get("wind_speed"),
         "wind_turbine_powercurve_powerout": power_curve.get("power_curve_kw"),
-    }
-    
-    turbine_dict.update({
         "wind_turbine_rotor_diameter": turbine_specs["rotor_diameter"],
         "wind_turbine_hub_ht": hub_height,
-        }
-    )
+    }
     return turbine_dict
 
-    
-
-    
 
 def get_floris_turbine_specs(turbine_name):
     """Load turbine data from turbine-models library to use with FLORIS wind simulation. 
@@ -100,15 +93,11 @@ def get_floris_turbine_specs(turbine_name):
         "wind_speed": power_curve.get("wind_speed"),
         "power": power_curve.get("power_curve_kw"),
         "thrust_coefficient": power_curve.get("ct_curve"),
-    }
-    
-    power_thrust_table.update({
         "ref_air_density": 1.225,
         "ref_tilt": turbine_specs.get("rotor_tilt_angle", 5.0),
         "cosine_loss_exponent_yaw": 1.88,
         "cosine_loss_exponent_tilt": 1.88,
-        }
-    )
+    }
 
     turbine_dict = {
         "turbine_type":turbine_name,
