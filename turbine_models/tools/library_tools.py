@@ -28,7 +28,7 @@ def check_turbine_library_for_turbine(turbine_name:str, turbine_group = "none") 
     turbines_in_group = t_lib.turbines(group = turbine_group)
     if any(turb.lower()==turbine_name.lower() for turb in turbines_in_group.values()):
         valid_name = True
-        return valid_name
+
     return valid_name
 
 def print_turbines_in_group(group_name:str, *, all_turbines:bool=False, print_nicknames:bool = False) -> None:

@@ -16,7 +16,7 @@ def get_pysam_turbine_specs(turbine_name):
         dict: turbine model dictionary formatted for PySAM.
     """
     if turbine_name in missing_information_turbines:
-        raise ValueError(f"{missing_information_turbines} turbine does not have enough information to model in PySAM.")
+        raise ValueError(f"{turbine_name} turbine does not have enough information to model in PySAM.")
     
     t_lib = Turbines()
     turbine_specs = t_lib.specs(turbine_name)
@@ -45,7 +45,8 @@ def get_pysam_turbine_specs(turbine_name):
     turbine_dict.update({
         "wind_turbine_rotor_diameter": turbine_specs["rotor_diameter"],
         "wind_turbine_hub_ht": hub_height,
-        })
+        }
+    )
     return turbine_dict
 
     
@@ -106,7 +107,8 @@ def get_floris_turbine_specs(turbine_name):
         "ref_tilt": turbine_specs.get("rotor_tilt_angle", 5.0),
         "cosine_loss_exponent_yaw": 1.88,
         "cosine_loss_exponent_tilt": 1.88,
-        })
+        }
+    )
 
     turbine_dict = {
         "turbine_type":turbine_name,
