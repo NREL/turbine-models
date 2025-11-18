@@ -13,6 +13,7 @@ import yaml
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import copy
 
 import turbine_models
 from turbine_models.turbine_spell_checker_tools import get_best_match_turbine_in_library
@@ -22,7 +23,7 @@ class Turbines:
     """Access power curves from NREL's turbine-models repository."""
 
     def __init__(self):
-        self.supported_turbines = supported_turbines.copy()
+        self.supported_turbines = copy.deepcopy(supported_turbines)
 
     def __repr__(self):
         """Return representation string for Turbines object."""
@@ -128,7 +129,8 @@ class Turbines:
         if isinstance(index,int):
             fpath = self._turbines(group)[index]["path"]
         elif isinstance(index,str):
-            if index in self.supported_turbines: #nickname provided
+            if index in self.supported_turbines: 
+                #index was provided as a key in `supported_turbines`
                 index = self.supported_turbines[index]
 
             indx_turb_dict = self.turbines(group=group)
@@ -143,7 +145,8 @@ class Turbines:
         if isinstance(index,int):
             fpath = self._turbines(group)[index]["spec_path"]
         if isinstance(index,str):
-            if index in self.supported_turbines: #nickname provided
+            if index in self.supported_turbines: 
+                #index was provided as a key in `supported_turbines`
                 index = self.supported_turbines[index]
 
             group = self.find_group_for_turbine(index)

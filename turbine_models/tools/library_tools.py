@@ -1,7 +1,7 @@
 from turbine_models.parser import Turbines
 from turbine_models.supported_turbines import supported_turbines, missing_information_turbines
 
-def check_turbine_library_for_turbine(turbine_name:str, turbine_group = "none"):
+def check_turbine_library_for_turbine(turbine_name:str, turbine_group = "none") -> bool:
     """Check turbine-models library for turbine named ``turbine_name``.
 
     Args:
@@ -23,22 +23,24 @@ def check_turbine_library_for_turbine(turbine_name:str, turbine_group = "none"):
             turbines_in_group = t_lib.turbines(group = turb_group)
             if any(turb.lower()==turbine_name.lower() for turb in turbines_in_group.values()):
                 valid_name = True
-    else:
-        turbines_in_group = t_lib.turbines(group = turbine_group)
-        if any(turb.lower()==turbine_name.lower() for turb in turbines_in_group.values()):
-            valid_name = True
+                return valid_name
+
+    turbines_in_group = t_lib.turbines(group = turbine_group)
+    if any(turb.lower()==turbine_name.lower() for turb in turbines_in_group.values()):
+        valid_name = True
+        return valid_name
     return valid_name
 
-def print_turbines_in_group(group_name, all_turbines, print_nicknames):
+def print_turbines_in_group(group_name:str, *, all_turbines:bool=False, print_nicknames:bool = False) -> None:
     """Print the turbine names for each group of turbines in turbine-models library.
 
     Args:
         group_name (str): group of turbine names to print, must be either "offshore", 
             "onshore", or "distributed".
-        all_turbines (bool): If True, include the turbines that have missing information. 
-            If False, only include the turbines with sufficient data.
-        print_nicknames (bool): If True, print the nicknames of turbines. 
-            If False, print the full name of turbines.
+        all_turbines (bool,optional): If True, include the turbines that have missing information. 
+            If False, only include the turbines with sufficient data. Defaults to False.
+        print_nicknames (bool,optional): If True, print the nicknames of turbines. 
+            If False, print the full name of turbines. Defaults to False.
 
     """
 
@@ -51,25 +53,16 @@ def print_turbines_in_group(group_name, all_turbines, print_nicknames):
 
     fullname_to_nickname = {v:k for k,v in supported_turbines.items() if v in turbine_names}
 
-    if not all_turbines and print_nicknames:
-        # print nicknames and only include valid turbines
-        turbines_to_print = [nickname for fullname,nickname in fullname_to_nickname.items() if nickname not in missing_information_turbines]
-    if not all_turbines and not print_nicknames:
-        # print fullnames and only include valid turbines
-        turbines_to_print = [fullname for fullname,nickname in fullname_to_nickname.items() if nickname not in missing_information_turbines]
-    if all_turbines and print_nicknames:
-        # print nicknames and include all turbines
-        turbines_to_print = list(fullname_to_nickname.values())
-    if all_turbines and not print_nicknames:
-        # print fullnames and include all turbines
-        turbines_to_print = list(fullname_to_nickname.keys())
+    if not all_turbines:
+        fullname_to_nickname = {k: v for k, v in fullname_to_nickname.items() if v not in missing_information_turbines}
+    turbines_to_print = fullname_to_nickname.values() if print_nicknames else fullname_to_nickname.keys()
 
     msg = "\n " + "\n ".join(t for t in turbines_to_print)
     print(msg)
     return
 
 
-def print_turbine_name_list(all_turbines=False, print_nicknames=False):
+def print_turbine_name_list(*, all_turbines:bool = False, print_nicknames:bool = False) -> None:
     """Print the turbine names for each group of turbines in turbine-models library.
 
     Args:
