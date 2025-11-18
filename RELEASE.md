@@ -1,6 +1,6 @@
 # Release Notes
 
-## Version 0.1.2, Nov 17, 2025
+## Version 0.2.0, Nov 19, 2025
 * added power curve estimation tools
 * added methods to get turbine model specs formatted for PySAM or FLORIS
 * added in supported_turbines.py which provides mapping from a simpler turbine name to the full name
