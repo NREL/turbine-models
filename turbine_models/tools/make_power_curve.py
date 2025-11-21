@@ -1,5 +1,4 @@
 import numpy as np
-from turbine_models.parser import Turbines
 import turbine_models.tools.power_curve_tools as curve_tools
 
 def extract_power_curve(turbine_specs: dict) -> dict[str, list[float]]:
@@ -14,10 +13,10 @@ def extract_power_curve(turbine_specs: dict) -> dict[str, list[float]]:
 
     Returns:
         dict[str,list[float]]: power-curve dictionary with keys of:
-            - 'wind_speed': wind speeds in m/s.
-            - 'ct_curve': Thrust coefficient (Ct) curve for each wind speed.
-            - 'cp_curve': Power coefficient (Cp) curve for each wind speed.
-            - 'power_curve_kw': power curve for each wind speed in kW
+            - 'wind_speed': wind speeds [m/s].
+            - 'ct_curve': Thrust coefficient (Ct) curve for each wind speed [-].
+            - 'cp_curve': Power coefficient (Cp) curve for each wind speed [-].
+            - 'power_curve_kw': power curve for each wind speed [kW]
     """
 
     turbine_specs["power_curve"] = turbine_specs["power_curve"].dropna()

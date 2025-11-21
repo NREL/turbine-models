@@ -9,16 +9,21 @@ def plot_power_curve(wind_speed, cp_curve, ct_curve):
         cp_curve (list | np.ndarray): power curve coefficients (Cp) at each wind speed in ``wind_speed``
         ct_curve (list | np.ndarray): thrust curve coefficients (Ct) at each wind speed in ``wind_speed``
     """
+    betz_limit = 16/27
     fig,ax = plt.subplots(1,1)
-    ax.plot(wind_speed, ct_curve, c='tab:blue',label="Coeff of Thrust")
-    ax.plot(wind_speed, cp_curve, c='tab:red', label="Coeff of Power")
+    ax.plot(wind_speed, betz_limit*np.ones_like(wind_speed), ls='--', alpha=0.8, c="tab:red", label="Betz Limite")
+    ax.plot(wind_speed, ct_curve, c='tab:blue', label="Coeff of Thrust")
+    ax.plot(wind_speed, cp_curve, c='tab:orange', label="Coeff of Power")
+    
     ax.legend()
     ax.set_xlabel("Wind Speed [m/s]")
     fig.show()
 
 
 def pad_power_curve(wind_speed, curve, ws_min = 0.0, ws_max = 50.0):
-    """Pad curve data with zeroes from wind speeds of ``ws_min`` to ``ws_max``.
+    """Pad curve data with zeroes from wind speeds of ``ws_min`` to ``ws_max``. This method helps 
+    avoid automated extrapolation to non-physical negative power values and avoid missing data 
+    errors with common wind farm simulation tools such as FLORIS or PySAM.Windpower.
 
     Args:
         wind_speed (list | np.ndarray): list of wind speeds in m/s
