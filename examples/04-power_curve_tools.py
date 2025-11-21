@@ -1,5 +1,5 @@
 from turbine_models.parser import Turbines
-from turbine_models.tools.make_power_curve import extract_power_curve
+from turbine_models.tools.extract_power_curve import extract_power_curve
 from turbine_models.tools.library_tools import check_turbine_library_for_turbine
 
 turbine = "GE_1.5MW"

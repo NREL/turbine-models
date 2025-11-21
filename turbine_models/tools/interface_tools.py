@@ -1,6 +1,6 @@
 import numpy as np
 from turbine_models.parser import Turbines
-from turbine_models.tools.make_power_curve import extract_power_curve
+from turbine_models.tools.extract_power_curve import extract_power_curve
 from turbine_models.supported_turbines import missing_information_turbines
 
 def get_pysam_turbine_specs(turbine_name):
