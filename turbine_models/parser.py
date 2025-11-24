@@ -13,12 +13,17 @@ import yaml
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+import copy
 
 import turbine_models
 from turbine_models.turbine_spell_checker_tools import get_best_match_turbine_in_library
+from turbine_models.supported_turbines import supported_turbines, missing_information_turbines
 
 class Turbines:
     """Access power curves from NREL's turbine-models repository."""
+
+    def __init__(self):
+        self.supported_turbines = copy.deepcopy(supported_turbines)
 
     def __repr__(self):
         """Return representation string for Turbines object."""
@@ -75,6 +80,7 @@ class Turbines:
         ax.set_ylabel(field)
         ax.set_xlabel("windspeed_ms")
 
+
     @property
     def groups(self):
         """Return list of turbine groups."""
@@ -123,6 +129,10 @@ class Turbines:
         if isinstance(index,int):
             fpath = self._turbines(group)[index]["path"]
         elif isinstance(index,str):
+            if index in self.supported_turbines: 
+                #index was provided as a key in `supported_turbines`
+                index = self.supported_turbines[index]
+
             indx_turb_dict = self.turbines(group=group)
             turb_idx_dict = {v:k for k,v in indx_turb_dict.items()}
             indx = turb_idx_dict[index]
@@ -134,7 +144,11 @@ class Turbines:
     def specs(self, index, group="onshore"):
         if isinstance(index,int):
             fpath = self._turbines(group)[index]["spec_path"]
-        elif isinstance(index,str):
+        if isinstance(index,str):
+            if index in self.supported_turbines: 
+                #index was provided as a key in `supported_turbines`
+                index = self.supported_turbines[index]
+
             group = self.find_group_for_turbine(index)
             indx_turb_dict = self.turbines(group=group)
             turb_idx_dict = {v:k for k,v in indx_turb_dict.items()}
@@ -155,15 +169,25 @@ class Turbines:
             spec_data = None
         return spec_data
 
+    
     def find_group_for_turbine(self,turbine_name):
         
+        # check if turbine name was provided as full name
         for group in self.groups:
             turbines_in_group = self.turbines(group)
             if any(k.lower()==turbine_name.lower() for k in list(turbines_in_group.values())):
                 group_of_turb = group
                 return group_of_turb
         
-        # check if valid name exists
+        # check if turbine name was provided as nickname
+        for group in self.groups:
+            fullname_to_nickname = {v:k for k,v in self.supported_turbines.items()}
+            turbines_in_group = self.turbines(group)
+            if any(fullname_to_nickname[k]==turbine_name for k in list(turbines_in_group.values())):
+                group_of_turb = group
+                return group_of_turb
+        
+        # check if valid full name exists
         turbine_name = get_best_match_turbine_in_library(turbine_name, self)
         for group in self.groups:
             turbines_in_group = self.turbines(group)
