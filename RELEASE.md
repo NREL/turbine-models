@@ -1,5 +1,8 @@
 # Release Notes
 
+## Version 0.2.1, Nov 26, 2025
+* bugfix in `check_turbine_library_for_turbine()` method if `turbine_group` is input as "none" and turbine does not exist in the turbine-models library.
+
 ## Version 0.2.0, Nov 19, 2025
 * added power curve estimation tools
 * added methods to get turbine model specs formatted for PySAM or FLORIS
